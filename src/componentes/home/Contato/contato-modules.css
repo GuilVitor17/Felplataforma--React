@@ -1,0 +1,127 @@
+.Rota-Privada-form{
+width: 800px;
+margin: auto;
+height: 400px;
+top: 180px;
+position:relative;
+display: flex;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.form-control, .form-select{
+    border: solid 1px black;
+}
+.contato{
+height: 700px;
+}
+
+
+@media (max-width:1279px) and (min-width:1001px) {
+
+    .Rota-Privada-form{
+        width: 1000px;
+        margin: auto;
+        height: 400px;
+        top: 180px;
+        position:relative;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+        
+        .form-control, .form-select{
+            border: solid 1px black;
+        }
+        .contato{
+        height: 700px;
+        width: 1279px;
+        margin: auto;
+        }
+        
+
+}
+@media (max-width:425px) {
+    .Rota-Privada-form{
+        width: 400px;
+        margin: auto;
+        height: 400px;
+        top: 90px;
+        position:relative;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+
+        .contato{
+            height: 700px;
+            }
+        
+        .form-control, .form-select{
+            border: solid 1px black;
+            height: 40px;
+        }
+
+        .Rota-Privada-form >form>.col-12>button{
+
+            width: 200px !important;
+            padding: 13px;
+            margin: auto !important;
+            position: relative;
+            align-items: center;
+            left: 100px;
+            top: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+
+
+        }
+        
+
+      
+}
+
+
+@media (max-width:1000px) and (min-width:426px) {
+    .Rota-Privada-form{
+        width: 500px;
+        margin: auto;
+        height: 500px;
+        top: 150px;
+        position:relative;
+        left: 0px;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font: 1em sans-serif;
+        
+        }
+        .contato{
+            height: 900px;
+            width: 1279px;
+            margin: auto !important;
+            top: 40px;
+            position: relative;
+            }
+
+       
+        .form-control, .form-select{
+            border: solid 1px black;
+            height: 60px;
+            font: 1em sans-serif;
+        }
+
+        .Rota-Privada-form >form>.col-12>button{
+
+            width: 300px !important;
+            padding: 15px;
+            margin: auto !important;
+            position: relative;
+            align-items: center;
+            left: 0px;
+            top: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+
+
+        }
+    }

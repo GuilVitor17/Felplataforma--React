@@ -1,0 +1,960 @@
+.carrossel > div {
+
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 0px 10px;
+    
+}
+
+ div > img {
+
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+    top: 0px;
+
+}
+
+
+
+.div-Id-livro{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+
+.div-inf-livro{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.center-infor-livro{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.div-caixa-img{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+.div-caixa-img > img{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.div-img-id > img{
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.card-genero{
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    right: 0;
+    bottom: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: tomato;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-date{
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    right: 0;
+    top:5px;
+    font-size: 15px;
+    color: tomato;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.card-body{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.card-body >.Btn-livro > button{
+    padding: 10px;
+    width: 150px;
+    top: 15px;
+    position: relative;
+    right: 15px;
+    border: solid 1px #fff;
+
+}
+
+.card-title{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    left: -15px;
+    top: 15px;
+}
+
+.card-text{
+    width: 300px;
+    height: 70px;
+    font-size: 15px;
+    left: -15px;
+    position: relative;
+    top: 15px;
+    color: #fff;
+    text-align: left;
+
+
+}
+
+
+.card{
+    width: 320px;
+    height: 450px;
+    font-size: 15px;
+    background-color: #00337C;
+    color: #fff;
+    margin: 25px 0px;
+
+}
+.card > img{
+    width: 320px;
+    height: 250px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+
+}
+.div-inf-id {
+    width: 400px;
+    height: 290px;
+    background-color: rgb(61, 42, 165);
+    margin: auto;
+}
+.div-inf-id > p {
+      margin: auto;
+      margin: 5px 0px;
+}
+
+
+.description-id{
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    top: 10px;
+    position: relative;
+
+}
+
+.description-id > .div-descricao-id{
+    width: 800px;
+    position: relative;
+}
+
+.description-id > a > .button-livro-id{
+    width: 300px;
+    position: relative;
+}
+
+.description-id > a > .button-livro-id > button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+
+@media (min-width:426px) and (max-width:1279px) {
+
+    .carrossel > div {
+
+        width: 400px;
+        height: 300px;
+        position: relative;
+        margin: 0px 10px;
+        
+    }
+    
+     div > img {
+    
+        width: 500px;
+        height: 300px;
+        margin: 0px;
+        top: 0px;
+    
+    }
+    
+    
+    
+    .div-Id-livro{
+        width: 1279px;
+        height: 700px;
+        background-color: #fff;
+    }
+    
+    .div-inf-livro{
+        width: 1000px !important;
+        height: 700px;
+        background-color: #fff;
+        margin: auto;
+        display: flex;
+        position: relative;
+    }
+    
+    .center-infor-livro{
+        width: 800px;
+        height: 400px;
+        margin: auto;
+        
+    }
+    
+    .div-caixa-img{
+        width: 800px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+    }
+    .div-caixa-img > img{
+        width: 800px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+    }
+    
+    .div-img-id > img{
+        width: 350px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+    }
+
+    .opcoesLivros {
+        width: 1279px !important;
+        height: 500px;
+        margin: auto;
+    }
+
+    .opcoesfilmes {
+        width: 1279px !important;
+        height: 500px;
+        margin: auto;
+    }
+   
+    .opcoeslogos {
+        width: 1279px !important;
+        height: 500px;
+        margin: auto;
+    }
+
+    .opcoeslogos > .div-logos {
+        width: 1200px !important;
+        height: 500px;
+        margin: auto;
+    }
+    
+    .card-genero{
+        width: 90px;
+        height: 20px;
+        position:absolute;
+        right: 0;
+        bottom: 15px;
+        font-size: 15px;
+        text-align: center;
+        color: tomato;
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .card-date{
+        width: 90px;
+        height: 20px;
+        position:absolute;
+        right: 0;
+        top:5px;
+        font-size: 15px;
+        color: tomato;
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    }
+    
+    .card-body{
+        width: 300px;
+        margin: auto;
+        position: relative;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    .card-body >.Btn-livro > button{
+        padding: 10px;
+        width: 150px;
+        top: 15px;
+        position: relative;
+        right: 15px;
+        border: solid 1px #fff;
+    
+    }
+    
+    .card-title{
+        width: 300px;
+        height: 30px;
+        font-size: 15px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        left: -15px;
+        top: 15px;
+    }
+    
+    .card-text{
+        width: 300px;
+        height: 70px;
+        font-size: 15px;
+        left: -15px;
+        position: relative;
+        top: 15px;
+        color: #fff;
+        text-align: left;
+    
+    
+    }
+    
+    
+    .card{
+        width: 320px;
+        height: 450px;
+        font-size: 15px;
+        background-color: #00337C;
+        color: #fff;
+        margin: 25px 0px;
+        border: solid 1px #fff;
+    
+    }
+    .card > img{
+        width: 320px;
+        height: 250px;
+        font-size: 15px;
+        background-color: #fff;
+        color: #000;
+        border: solid 1px #fff;
+
+    
+    }
+    .div-inf-id {
+        width: 400px;
+        height: 290px;
+        background-color: rgb(61, 42, 165);
+        margin: auto;
+    }
+    .div-inf-id > p {
+          margin: auto;
+          margin: 5px 0px;
+    }
+    
+    
+    .description-id{
+        width: 800px;
+        background-color: #fff;
+        display: flex;
+        top: 10px;
+        position: relative;
+    
+    }
+    
+    .description-id > .div-descricao-id{
+        width: 800px;
+        position: relative;
+    }
+    
+    .description-id > a > .button-livro-id{
+        width: 300px;
+        position: relative;
+    }
+    
+    .description-id > a > .button-livro-id > button{
+        width: 150px;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        right: 0;
+        margin: 10px;
+    }
+    
+
+}
+
+
+
+@media (max-width:425px) {
+
+
+
+    .carrossel > div {
+
+        width: 400px;
+        height: 300px;
+        position: relative;
+        margin: 0px 10px;
+        
+    }
+    
+     div > img {
+    
+        width: 500px;
+        height: 300px;
+        margin: 0px;
+        top: 0px;
+    
+    }
+    
+    
+    
+    .div-Id-livro{
+        width: 425px;
+        height: 1000px;
+        background-color: #fff;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .div-inf-livro{
+        width: 425px;
+        height: 1000px;
+        background-color: #fff;
+        margin: auto;
+        display: flex;
+        position: relative;
+        
+    }
+    
+    .center-infor-livro{
+        width: 425px;
+        height: 1000px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        
+    }
+    
+   .center-infor-livro> .div-caixa-img{
+        width: 425px;
+        height: 1000px;
+        margin: auto;
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+        top: 90px;
+    }
+    .div-caixa-img > img{
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+    }
+    
+    .div-img-id > img{
+        width: 350px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+    }
+    
+    .card-genero{
+        width: 90px;
+        height: 20px;
+        position:absolute;
+        right: 0;
+        bottom: 15px;
+        font-size: 15px;
+        text-align: center;
+        color: tomato;
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .card-date{
+        width: 90px;
+        height: 20px;
+        position:absolute;
+        right: 0;
+        top:5px;
+        font-size: 15px;
+        color: tomato;
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    }
+    
+    .card-body{
+        width: 300px;
+        margin: auto;
+        position: relative;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    .card-body >.Btn-livro > button{
+        padding: 10px;
+        width: 150px;
+        top: 15px;
+        position: relative;
+        right: 15px;
+        border: solid 1px #fff;
+    
+    }
+    
+    .card-title{
+        width: 300px;
+        height: 30px;
+        font-size: 15px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        left: -15px;
+        top: 15px;
+    }
+    
+    .card-text{
+        width: 300px;
+        height: 70px;
+        font-size: 15px;
+        left: -15px;
+        position: relative;
+        top: 15px;
+        color: #fff;
+        text-align: left;
+    
+    
+    }
+    
+    
+    .card{
+        width: 320px;
+        height: 450px;
+        font-size: 15px;
+        background-color: #00337C;
+        color: #fff;
+        margin: 25px 0px;
+    
+    }
+    .card > img{
+        width: 320px;
+        height: 250px;
+        font-size: 15px;
+        background-color: #fff;
+        color: #000;
+    
+    }
+    .div-inf-id {
+        width: 400px;
+        height: 530px !important;
+        background-color: rgb(61, 42, 165);
+        margin: auto;
+        position: relative;
+    }
+    .div-inf-id > p {
+          margin: auto;
+          margin: 5px 10px !important;
+          width: 380px;
+    }
+
+    .div-img-id{
+        height: 300px !important;
+        top: 20px;
+        position: relative;
+
+    }
+    
+    
+    .description-id{
+        width: 400px !important;
+        top: -150px !important;
+        position:relative;
+        top: 0px;
+        margin: auto;
+
+
+    
+    }
+    
+    .description-id > .div-descricao-id{
+        width: 400px;
+        position:absolute;
+        top: 0px;
+    }
+
+    .description-id > a{
+        margin: auto;
+        position: absolute;
+        align-items: center;
+        left: 100px;
+    }
+    
+    .description-id > a > .button-livro-id{
+        width: 200px;
+        height: 20px !important;
+        background-color: transparent !important;
+        margin: auto;
+        display: flex;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        align-items: center;
+    }
+    
+    .description-id > a > .button-livro-id > button{
+        width: 180px !important;
+        padding: 15px;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        right: 0;
+        margin: 10px 0px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 10px;
+        bottom: -5px;
+
+    }
+    
+
+    .opcoesLivros, .opcoesLivros>.div-livros, .opcoesLivros>.div-livros>div {
+        width: 400px !important;
+
+    }
+    
+
+    
+}
+
+
+
+@media (min-width:426px) and (max-width:1000px) {
+
+
+
+    .carrossel > div {
+
+        width: 400px;
+        height: 300px;
+        position: relative;
+        margin: 0px 10px;
+        
+    }
+    
+     div > img {
+    
+        width: 500px;
+        height: 300px;
+        margin: 0px;
+        top: 0px;
+    
+    }
+    
+    
+    
+    .div-Id-livro{
+        width: 1279px !important;
+        height: 1000px;
+        background-color: #fff;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .div-inf-livro{
+        width: 1279px !important;
+        height: 1000px;
+        background-color: #fff;
+        margin: auto;
+        display: flex;
+        position: relative;
+        
+    }
+    
+    .center-infor-livro{
+        width: 1279px !important;
+        height: 1000px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        
+    }
+    
+   .center-infor-livro> .div-caixa-img{
+        width: 425px;
+        height: 1000px;
+        margin: auto;
+        flex-direction: column;
+        position: relative;
+        bottom: 0;
+        top: 90px;
+    }
+    .div-caixa-img > img{
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+    }
+    .div-caixa-img {
+        width: 600px !important;
+        height: 400px;
+        margin: auto;
+        display: flex;
+    }
+    
+    .div-img-id > img{
+        width: 450px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+    }
+    
+    .card-genero{
+        width: 90px;
+        height: 20px;
+        position:absolute;
+        right: 0;
+        bottom: 15px;
+        font-size: 15px;
+        text-align: center;
+        color: tomato;
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .card-date{
+        width: 90px;
+        height: 20px;
+        position:absolute;
+        right: 0;
+        top:5px;
+        font-size: 15px;
+        color: tomato;
+        text-align: right;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    }
+    
+    .card-body{
+        width: 300px;
+        margin: auto;
+        position: relative;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    .card-body >.Btn-livro > button{
+        padding: 10px;
+        width: 150px;
+        top: 15px;
+        position: relative;
+        right: 15px;
+        border: solid 1px #fff;
+    
+    }
+    
+    .card-title{
+        width: 300px;
+        height: 30px;
+        font-size: 15px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        left: -15px;
+        top: 15px;
+    }
+    
+    .card-text{
+        width: 300px;
+        height: 70px;
+        font-size: 15px;
+        left: -15px;
+        position: relative;
+        top: 15px;
+        color: #fff;
+        text-align: left;
+    
+    
+    }
+    
+    
+    .card{
+        width: 320px;
+        height: 450px;
+        font-size: 15px;
+        background-color: #00337C;
+        color: #fff;
+        margin: 25px 0px;
+    
+    }
+    .card > img{
+        width: 320px;
+        height: 250px;
+        font-size: 15px;
+        background-color: #fff;
+        color: #000;
+    
+    }
+    .div-inf-id {
+        width: 500px !important;
+        height: 530px !important;
+        background-color: rgb(61, 42, 165);
+        margin: auto;
+        position: relative;
+    }
+    .div-inf-id > p {
+          margin: auto;
+          margin: 5px 10px !important;
+          width: 500px;
+    }
+
+    .div-img-id{
+        height: 350px !important;
+        top: 50px;
+        position: relative;
+
+    }
+    
+    .center-infor-livro>.description-id {
+        width: 500px !important;
+        top: -100px !important;
+        position:relative;
+        top: 0px;
+        left: 10px;
+        margin: auto;
+
+
+
+    }
+    
+    .center-infor-livro>.description-id > .div-descricao-id{
+        width: 500px !important;
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        margin: auto;
+
+    }
+
+    .description-id > .div-descricao-id > h5{
+        width: 500px !important;
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        margin: auto;
+        box-shadow: 0px 1px 0px 0px #fff;
+
+    }
+
+    .description-id > a{
+        margin: auto;
+        position: absolute;
+        align-items: center;
+        left: 100px;
+    }
+    
+    .description-id > a > .button-livro-id{
+        width: 500px;
+        height: 50px !important;
+        background-color: transparent !important;
+        margin: auto;
+        display: flex;
+        position: absolute;
+        left: -100px;
+        bottom: 10px;
+        align-items: center;
+    }
+    
+    .description-id > a > .button-livro-id > button{
+        width: 200px !important;
+        padding: 15px;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        right: 0;
+        margin: 10px 0px;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 10px;
+        bottom: 10px;
+        font-size: 17px !important;
+
+    }
+    
+
+    .opcoesLivros, .opcoesLivros>.div-livros, .opcoesLivros>.div-livros>div {
+        width: 1200px !important;
+        margin: auto !important;
+
+    }
+    .opcoesLivros {
+        width: 1279px !important;
+        margin: auto !important;
+
+    }
+
+    .opcoesfilmes, .opcoesfilmes>.div-filmes, .opcoesfilmes>.div-filmes>div {
+        width: 1200px !important;
+        margin: auto !important;
+
+    }
+
+    .opcoesfilmes {
+        width: 1279px !important;
+        margin: auto !important;
+
+    }
+
+
+    .opcoeslogos, .opcoeslogos>.div-logos, .opcoeslogos>.div-logos>div {
+        width: 1200px !important;
+        margin: auto !important;
+
+    }
+
+    .opcoeslogos {
+        width: 1200px !important;
+        margin: auto !important;
+
+    }
+    
+
+    
+}
+

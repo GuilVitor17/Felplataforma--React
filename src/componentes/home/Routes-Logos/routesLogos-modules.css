@@ -1,0 +1,35 @@
+.opcoeslogos{
+width: 1200px;
+margin: auto;
+}
+
+.opcoeslivros>.Logomarcas > div{
+    width: 1200px;
+    }
+
+@media  (max-width:425px) {
+    .opcoeslogos{
+        width: 400px;
+        margin: auto;
+        }
+        
+        .opcoeslivros>.Logomarcas > div{
+            width: 400px;
+            }
+
+           
+}    
+
+
+@media  (max-width:1000px) and (min-width:426px) {
+    .opcoeslogos{
+        width: 400px;
+        margin: auto;
+        }
+        
+        .opcoeslivros>.Logomarcas > div{
+            width: 400px;
+            }
+
+           
+}    

@@ -1,0 +1,484 @@
+.private-rede-social{
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+
+.div-menu{
+width: 200px;
+height: 300px;
+display: grid;
+position: relative;
+}
+
+.div-menu > ul{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  margin: 10px;
+  top: -5px;
+  left: -0px;
+  flex-direction: row;
+  text-decoration: none;
+
+}
+.div-menu > ul > div{
+    position: relative;
+    width: 270px;
+    height: 250px;
+    margin: none;
+    top: 10px;
+    left: -31px;
+    flex-direction: row;
+    color: #fff;
+  }
+
+ 
+.div-menu > ul > div > .Link > b{
+    width: 100px;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-align: left;
+    margin: 1px;
+    display: grid;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    list-style: none !important;
+    
+  }
+  
+
+
+.Logo{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    left: 120px;
+
+
+}
+
+.Logo > div{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    box-shadow: none;
+}
+
+.Logo > div > img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    box-shadow: none;
+    display: flex;
+    top: 50px;
+
+}
+
+.Logo > .Redes{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.Logo > .Redes >  div{
+    width: 50px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+    display: flex ;
+}
+
+.Logo > .Redes > div > a> svg{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    color: #000;
+
+}
+
+
+
+@media (max-width:1199px) and (min-width:1001px) {
+
+    .private-rede-social{
+        width: 500px;
+        height: 300px;
+        display: flex;
+    }
+    
+    .div-menu{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    position: relative;
+    }
+    
+    .div-menu > ul{
+      width: 300px;
+      height: 300px;
+      display: flex;
+      position: relative;
+      margin: 10px;
+      top: -5px;
+      left: -0px;
+      flex-direction: row;
+      text-decoration: none;
+    
+    }
+    .div-menu > ul > div{
+        position: relative;
+        width: 270px;
+        height: 250px;
+        margin: none;
+        top: 10px;
+        left: -31px;
+        flex-direction: row;
+        color: #fff;
+      }
+    
+     
+    .div-menu > ul > div > .Link > b{
+        width: 100px;
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        list-style: none;
+        text-align: left;
+        margin: 1px;
+        display: grid;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        list-style: none !important;
+        
+      }
+      
+    
+    
+    .Logo{
+        width: 250px;
+        height: 200px;
+        background-color: #fff;
+        position: relative;
+        top: 20px;
+        border-radius: 5px;
+        left: 140px;
+    
+    
+    }
+    
+    .Logo > div{
+        width: 200px;
+        height: 150px;
+        margin: auto;
+        box-shadow: none;
+    }
+    
+    .Logo > div > img{
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        display: flex;
+        top: 50px;
+    
+    }
+    
+    .Logo > .Redes{
+        width: 250px;
+        height: 100px;
+        background-color: #fff;
+        display: flex;
+        margin: auto;
+        position: relative;
+        border-radius: 5px;
+    
+    }
+    
+    .Logo > .Redes > div{
+        width: 50px;
+        height: 60px;
+        border-radius: 50px;
+        margin: auto;
+        display: flex ;
+    }
+    
+    .Logo > .Redes > div > a> svg{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+        display: flex;
+        position: relative;
+    }
+    
+    
+    
+
+}
+@media (max-width:425px) {
+
+    .private-rede-social{
+        width: 405px;
+        height: 300px;
+        position: relative;
+        margin: auto;
+        top: 40px;
+    }
+    
+    .div-menu{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    position: relative;
+    display: none;
+    }
+    
+    .div-menu > ul{
+      width: 300px;
+      height: 300px;
+      display: flex;
+      position: relative;
+      margin: 10px;
+      top: -5px;
+      left: -0px;
+      flex-direction: row;
+      text-decoration: none;
+    
+    }
+    .div-menu > ul > div{
+        position: relative;
+        width: 270px;
+        height: 250px;
+        margin: none;
+        top: 10px;
+        left: -31px;
+        flex-direction: row;
+        color: #fff;
+      }
+    
+     
+    .div-menu > ul > div > .Link > b{
+        width: 100px;
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        list-style: none;
+        text-align: left;
+        margin: 1px;
+        display: grid;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        list-style: none !important;
+        
+      }
+      
+    
+    
+    .Logo{
+        width: 405px;
+        height: 200px;
+        background-color: #fff;
+        position: relative;
+        top: 20px;
+        border-radius: 5px;
+        left: 0px;
+    
+    
+    }
+    
+    .Logo > div{
+        width: 200px;
+        height: 150px;
+        margin: auto;
+        box-shadow: none;
+    }
+    
+    .Logo > div > img{
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        display: flex;
+        top: 40px;
+    
+    }
+    
+    .Logo > .Redes{
+        width: 405px;
+        height: 100px;
+        background-color: #fff;
+        display: flex;
+        margin: auto;
+        position: relative;
+        border-radius: 5px;
+        top: 20px;
+    
+    }
+    
+    .Logo > .Redes > div{
+        width: 50px;
+        height: 60px;
+        border-radius: 50px;
+        margin: auto;
+        display: flex ;
+    }
+    
+    .Logo > .Redes > div > a> svg{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        margin: auto;
+        display: flex;
+        position: relative;
+    }
+
+}
+
+
+@media (min-width:426px) and (max-width:1000px) {
+
+    .private-rede-social{
+        width: 800px;
+        height: 500px;
+        position: relative;
+        margin: auto;
+        top: 40px;
+        left: -90px;
+    }
+    
+    .div-menu{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    position: relative;
+    display: none;
+    }
+    
+    .div-menu > ul{
+      width: 300px;
+      height: 300px;
+      display: flex;
+      position: relative;
+      margin: 10px;
+      top: -5px;
+      left: -0px;
+      flex-direction: row;
+      text-decoration: none;
+    
+    }
+    .div-menu > ul > div{
+        position: relative;
+        width: 270px;
+        height: 250px;
+        margin: none;
+        top: 10px;
+        left: -31px;
+        flex-direction: row;
+        color: #fff;
+      }
+    
+     
+    .div-menu > ul > div > .Link > b{
+        width: 100px;
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        list-style: none;
+        text-align: left;
+        margin: 1px;
+        display: grid;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        list-style: none !important;
+        
+      }
+      
+    
+    
+    .Logo{
+        width: 600px;
+        height: 300px;
+        background-color: #fff;
+        position: relative;
+        top: 20px;
+        border-radius: 5px;
+        left: 0px;
+        margin: auto;
+    
+    
+    }
+    
+    .Logo > div{
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        box-shadow: none;
+    }
+    
+    .Logo > div > img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        display: flex;
+        top: 40px;
+    
+    }
+    
+    .Logo > .Redes{
+        width: 600px;
+        height: 100px;
+        background-color: #fff;
+        display: flex;
+        margin: auto;
+        position: relative;
+        border-radius: 5px;
+        top: -110px;
+    
+    }
+    
+    .Logo > .Redes > div{
+        width: 50px;
+        height: 100px;
+        border-radius: 50px;
+        margin: auto;
+        display: flex ;
+    }
+    
+    .Logo > .Redes > div > svg{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        margin: auto;
+        display: flex;
+        position: relative;
+    }
+
+}

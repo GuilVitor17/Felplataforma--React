@@ -1,0 +1,394 @@
+.Galery{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+}
+
+.Galery > .carrossel-Filme{
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+    position: relative;
+    background-color: #fff;
+}
+
+.carrossel-Filme-destaque-edit{
+    width: 1200px;
+    margin: auto;
+    min-height: 700px;
+    top: 70px;
+    position: relative;
+
+}
+
+.carrossel-Filme-destaque-edit > .Voltar> svg{
+    width: 30px;
+    height: 30px;
+}
+
+.Voltarr> svg{
+    width: 30px;
+    height: 30px;
+    margin: 40px 70px;
+}
+
+
+.Galery > .caixaFilmes{
+    width: 1200px;
+    margin: auto;
+}
+
+.Galery > .caixaFilmes > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+}
+
+
+.generoPostFilmes{
+    width: 700px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+
+}
+.generoPostFilmes > .linkpostfilme{
+    margin: auto;
+    display: flex;
+
+}
+
+@media (max-width:425px) {
+
+    .Galery{
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+    }
+    
+    .Galery > .carrossel-livro{
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+        position: relative;
+        background-color: #fff;
+    }
+    
+    .carrossel-Filme-destaque-edit{
+        width: 400px;
+        margin: auto;
+        height: 1500px;
+        top: 70px;
+        position: relative;
+    
+    }
+    
+    .carrossel-Filme-destaque-edit > .Voltar> svg{
+        width: 60px;
+        height: 60px;
+        margin: auto 60px;
+        position: relative;
+        left: 20px;
+    }
+
+    .formulario > form > .Voltar> svg{
+        width: 60px !important;
+        height: 60px !important;
+        margin: auto;
+        position: relative;
+    }
+
+    .formulario > form > .col-12> button{
+        padding: 15px;
+        margin: auto;
+        position: relative;
+        width: 350px;
+        left: 5px;
+
+    }
+
+    
+
+    .formulario > div > form > .Voltar> svg{
+        width: 60px !important;
+        height: 60px !important;
+        margin: auto;
+        position: relative;
+    }
+
+    .formulario > div> form > .col-12> button{
+        padding: 15px;
+        margin: auto;
+        position: relative;
+        left: 5px;
+        width: 350px;
+
+    }
+    .formulario > div> form > .col-6> button{
+        padding: 15px;
+        margin: auto;
+        position: relative;
+        left: 5px;
+        width: 350px;
+
+    }
+
+    .Destaque> .button-editar-destaque, .button-editar-destaque > button {
+        background-color: rgb(205, 50, 166);
+        position: absolute !important;
+        display: flex;
+        top: -40px !important;
+        right: 0px;
+        color: #fff;
+        width: 90px;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .button-crud > .button-editar >button {
+        background-color: rgb(205, 50, 166);
+        position: absolute !important;
+        display: flex;
+        top: -50px !important;
+        right: 0px;
+        color: #fff;
+        width: 90px !important;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        left: 0px;
+    }
+    .button-crud > .button-apagar {
+        background-color: rgb(205, 50, 166);
+        position: absolute !important;
+        display: flex;
+        top: -50px !important;
+        right: 0px;
+        color: #fff;
+        width: 90px !important;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        left: 100px;
+
+
+    }
+    
+    
+    
+    .Galery > .caixaLivros{
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaLivros > div{
+        width: 1200px;
+        height: 500px;
+        margin: 20px 0px;
+        margin: auto;
+    }
+    
+    .generoPostFilmes{
+        width: 400px;
+        height: 700px;
+        flex-direction: column;
+        margin: auto;
+        display: flex;
+        border-radius: 5px;
+    
+    }
+    .generoPostFilmes > .linkpostfilme{
+        margin: 30px auto;
+        display: flex;
+        font-size: 30px;
+    
+    }
+
+    .button-criar{
+
+        position: absolute;
+        
+    }
+    .button-criar > button{
+
+        position: absolute;
+        z-index: 3000;
+        padding: 10px;
+        font-size: 20px;
+        width: 250px !important;
+        
+    }
+    
+}
+
+
+
+@media (max-width:1000px) and (min-width:426px) {
+
+    .Galery{
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+    }
+    
+    .Galery > .carrossel-livro{
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+        position: relative;
+        background-color: #fff;
+    }
+    
+    .carrossel-Filme-destaque-edit{
+        width: 400px;
+        margin: auto;
+        height: 1500px;
+        top: 70px;
+        position: relative;
+    
+    }
+    
+    .carrossel-Filme-destaque-edit > .Voltar> svg{
+        width: 60px;
+        height: 60px;
+        margin: auto 60px;
+        position: relative;
+        left: 20px;
+    }
+
+    .formulario > form > .Voltar> svg{
+        width: 60px !important;
+        height: 60px !important;
+        margin: auto;
+        position: relative;
+    }
+
+    .formulario > form > .col-12> button{
+        padding: 15px;
+        margin: auto;
+        position: relative;
+        width: 350px;
+        left: 5px;
+
+    }
+
+    
+
+    .formulario > div > form > .Voltar> svg{
+        width: 60px !important;
+        height: 60px !important;
+        margin: auto;
+        position: relative;
+    }
+
+    .formulario > div> form > .col-12> button{
+        padding: 15px;
+        margin: auto;
+        position: relative;
+        left: 5px;
+        width: 350px;
+
+    }
+    .formulario > div> form > .col-6> button{
+        padding: 15px;
+        margin: auto;
+        position: relative;
+        left: 5px;
+        width: 350px;
+
+    }
+
+    .Destaque> .button-editar-destaque, .button-editar-destaque > button {
+        background-color: rgb(205, 50, 166);
+        position: absolute !important;
+        display: flex;
+        top: -40px !important;
+        right: 0px;
+        color: #fff;
+        width: 90px;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .button-crud > .button-editar >button {
+        background-color: rgb(205, 50, 166);
+        position: absolute !important;
+        display: flex;
+        top: -50px !important;
+        right: 0px;
+        color: #fff;
+        width: 90px !important;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        left: 0px;
+    }
+    .button-crud > .button-apagar {
+        background-color: rgb(205, 50, 166);
+        position: absolute !important;
+        display: flex;
+        top: -50px !important;
+        right: 0px;
+        color: #fff;
+        width: 90px !important;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        left: 100px;
+
+
+    }
+    
+    
+    
+    .Galery > .caixaLivros{
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaLivros > div{
+        width: 1200px;
+        height: 500px;
+        margin: 20px 0px;
+        margin: auto;
+    }
+    
+    .generoPostFilmes{
+        width: 400px;
+        height: 700px;
+        flex-direction: column;
+        margin: auto;
+        display: flex;
+        border-radius: 5px;
+    
+    }
+    .generoPostFilmes > .linkpostfilme{
+        margin: 30px auto;
+        display: flex;
+        font-size: 30px;
+    
+    }
+
+    .button-criar{
+
+        position: absolute;
+        
+    }
+    .button-criar > button{
+
+        position: absolute;
+        z-index: 3000;
+        padding: 10px;
+        font-size: 20px;
+        width: 250px !important;
+        
+    }
+    
+}

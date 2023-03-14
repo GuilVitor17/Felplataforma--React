@@ -1,0 +1,276 @@
+.Galery{
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+}
+
+.Galery > .carrossel-livro{
+    width: 1100px;
+    margin: auto;
+    min-height: 700px;
+    position: relative;
+
+}
+
+.carrossel-livro-destaque{
+    width: 1200px;
+    margin: auto;
+    min-height: 700px;
+    top: 70px;
+    position: relative;
+
+}
+.carrossel-filmes-destaque{
+    width: 1200px;
+    margin: auto;
+    min-height: 700px;
+    top: 70px;
+    position: relative;
+
+}
+
+.carrossel-livro-destaque .Voltar> svg{
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    position: relative;
+}
+
+.Galery > .caixaLivros{
+    width: 1200px;
+    margin: auto;
+}
+
+.Galery > .caixaFilmes{
+    width: 1200px;
+    margin: auto;
+}
+
+.Galery > .caixaLivros > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+}
+
+
+.Galery > .caixaFilmes-div{
+    width: 1200px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    min-height: 2600px;
+}
+
+.Galery > .caixaFilmes-div > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+    top: 50px;
+
+}
+
+
+.BrainhubCarousel .BrainhubCarousel__trackContainer {
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+
+}
+
+
+@media (max-width:425px) {
+
+
+
+    .Galery{
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+    }
+    
+    .Galery > .carrossel-livro{
+        width: 1100px;
+        margin: auto;
+        min-height: 700px;
+        position: relative;
+    
+    }
+    
+    .carrossel-livro-destaque{
+        width: 400px;
+        margin: auto;
+        min-height: 700px;
+        top: 70px;
+        position: relative;
+    
+    }
+    .carrossel-filmes-destaque{
+        width: 400px;
+        margin: auto;
+        min-height: 700px;
+        top: 70px;
+        position: relative;
+    
+    }
+    
+    .carrossel-livro-destaque .Voltar> svg{
+        width: 30px;
+        height: 30px;
+        top: 30px;
+        position: relative;
+    }
+    
+    .Galery > .caixaLivros{
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaFilmes{
+        width: 400px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaLivros > div{
+        width: 1200px;
+        height: 500px;
+        margin: 20px 0px;
+        margin: auto;
+    }
+    
+    
+    .Galery > .caixaFilmes-div{
+        width: 400px;
+        margin: auto;
+        top: 100px;
+        min-height: 2650px !important;
+        position: relative;
+    }
+
+    .Galery > .caixaFilmes > div {
+        width: 400px;
+        height: 500px;
+        margin: auto;
+        top: 50px;
+        background-color:#e0e0e0;
+        box-shadow: 1px 1px 0px 10px #fff;
+    }
+    
+    .Galery > .caixaFilmes-div > div {
+        width: 400px;
+        height: 500px;
+        margin: auto;
+        top: 50px;
+        background-color:#e0e0e0;
+        box-shadow: 1px 1px 0px 10px #fff;
+    }
+
+    .BrainhubCarousel .BrainhubCarousel__trackContainer {
+        width: 100%;
+        overflow: hidden;
+        height: 500px;
+
+    }
+
+}
+
+
+@media (max-width:1279px) and (min-width:426px) {
+
+
+    .Galery{
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+    }
+    
+    .Galery > .carrossel-livro{
+        width: 1100px;
+        margin: auto;
+        min-height: 700px;
+        position: relative;
+    
+    }
+    
+    .carrossel-livro-destaque{
+        margin: auto;
+        min-height: 700px;
+        top: 70px;
+        position: relative;
+    
+    }
+    .carrossel-filmes-destaque{
+        margin: auto !important;
+        min-height: 700px;
+        top: 150px;
+        position: relative;
+        width: 1100px;
+
+    
+    }
+    .Destaque {
+        width: 1200px;
+        height: 450px;
+        font-size: 15px;
+        color: #fff;
+        margin: 25px 0px;
+        margin: auto !important;
+    }
+    
+    .carrossel-livro-destaque .Voltar> svg{
+        width: 30px;
+        height: 30px;
+        top: 30px;
+        position: relative;
+    }
+    
+    .Galery > .caixaLivros{
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaFilmes{
+        width: 1279px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaLivros > div{
+        width: 1279px;
+        height: 500px;
+        margin: 20px 0px;
+        margin: auto;
+    }
+
+    .Galery > .caixaLivros > div > div{
+        height: 500px !important;
+       
+    }
+    
+    
+    .Galery > .caixaFilmes-div{
+        width: 1279px;
+        margin: auto;
+        top: 150px;
+        position: relative;
+        min-height: 2700px;
+    }
+
+    .BrainhubCarousel .BrainhubCarousel__trackContainer {
+        width: 100%;
+        overflow: hidden;
+        height: 500px;
+
+    }
+    
+    .Galery > .caixaFilmes-div > div{
+        width: 1200px;
+        height: 500px;
+        margin: 20px 0px;
+        margin: auto;
+        top: 50px;
+    
+    }
+    
+   
+}

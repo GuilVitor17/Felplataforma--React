@@ -1,0 +1,228 @@
+.BuscarLivro{
+
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+
+}
+
+.BuscarLivro > .buscaname{
+    height: 500px;
+    width: 97%;
+    background-color:#e0e0e0;
+    margin: auto;
+    top: 20px;
+    position: relative;
+    overflow: scroll;
+
+
+
+}
+
+.BuscarLivro > .buscaname > div{
+    height: 500px;
+    width: 700px;
+    margin: auto;
+
+
+}
+
+.card-filter{
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+
+@media (max-width:425px) {
+    .BuscarLivro{
+
+        width: 405px;
+        height: 100px;
+        position: relative;
+        top: 100px;
+        margin: auto;
+    
+    }
+    
+    .BuscarLivro > .buscaname{
+        height: 500px;
+        width: 100%;
+        background-color:#e0e0e0;
+        margin: auto;
+        top: 20px;
+        position: relative;
+        overflow: scroll;
+    
+    
+    
+    }
+    
+    .BuscarLivro > .buscaname > div{
+        height: 500px;
+        width: 400px;
+        margin: auto;
+    
+    
+    }
+    
+    .card-filter{
+        width: 400px;
+        height: 500px;
+        position: relative;
+    }
+
+    .caixaLivros > .Voltar {
+        width: 56px !important;
+        height: 40px !important;
+        position: fixed !important;
+        z-index: 3000;
+        top: 12px;
+        left: 10px;
+        color: #fff;
+    }
+    .caixaLivros > .Voltar >svg {
+        width: 56px !important;
+        height: 40px !important;
+        top: 4px;
+        position: absolute !important;
+        z-index: 3000;
+        color: #fff;
+    }
+    
+    
+    
+    
+}
+
+
+@media (max-width:1279px) and (min-width:991px) {
+    
+    .BuscarLivro{
+
+        width: 800px !important;
+        height: 100px;
+        position: relative;
+        top: 100px;
+        margin: auto;
+    
+    }
+
+    .caixaLivros > .Voltar {
+        width: 30px;
+        height: 30px;
+        top: 100px;
+        position: relative;
+        left: 50px;
+    }
+
+    .caixaLivros > .Voltar > svg {
+        
+        top: 0px;
+        position: absolute;
+        left: 150px;
+    }
+    
+    .BuscarLivro > .buscaname{
+        height: 500px;
+        width: 800px !important;
+        background-color:#e0e0e0;
+        margin: auto;
+        top: 20px;
+        position: relative;
+        overflow: scroll;
+    
+    
+    
+    }
+    
+    .BuscarLivro > .buscaname > div{
+        height: 500px;
+        width: 700px;
+        margin: auto;
+    
+    
+    }
+    
+    .card-filter{
+        width: 700px;
+        height: 500px;
+        position: relative;
+    }
+    
+
+}
+
+
+@media (max-width:990px) and (min-width:426px) {
+    .BuscarLivro{
+
+        width: 700px;
+        height: 1000px;
+        position: relative;
+        top: 100px;
+        margin: auto;
+    
+    }
+    .BuscarLivro > div{
+
+        width: 700px;
+        height: 100px;
+        position: relative;
+        top: 70px;
+        margin: auto;
+    
+    }
+
+    .caixaLivros > .Voltar {
+        width: 56px !important;
+        height: 40px !important;
+        position: fixed !important;
+        z-index: 3000;
+        top: 12px;
+        left: 10px;
+    }
+    .caixaLivros > .Voltar >svg {
+        width: 90px !important;
+        height: 60px !important;
+        top: 30px;
+        left: 20px;
+        position: absolute !important;
+        z-index: 3000;
+        color: #fff;
+    }
+    
+    
+    .BuscarLivro > .buscaname{
+        height: 700px;
+        width: 100%;
+        background-color:#e0e0e0;
+        margin: auto;
+        top: 20px;
+        position: relative;
+        overflow: scroll;
+    
+    
+    
+    }
+    
+    .BuscarLivro > .buscaname > div{
+        height: 500px;
+        width: 700px;
+        margin: auto;
+    
+    
+    }
+    
+    .card-filter{
+        width: 400px;
+        height: 500px;
+        position: relative;
+    }
+    
+    
+    
+    
+}
+

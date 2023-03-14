@@ -1,0 +1,127 @@
+.Rota-Privada-Informacoes{
+    width: 100%;
+    background-color: #000;
+}
+
+.caixa-Privada-Informacoes{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+
+.InformacoesConteudos{
+    width: 600px;
+    display: flex;
+    padding: 40px 0px;
+    position: relative;
+
+}
+
+
+
+@media (max-width:1279px) and (min-width:1001px) {
+
+    .Rota-Privada-Informacoes{
+        width: 1279px;
+        background-color: #000;
+    }
+    
+    .caixa-Privada-Informacoes{
+        width: 1000px;
+        margin: auto;
+        display: flex;
+    }
+    
+    
+    .InformacoesConteudos{
+        width: 600px;
+        display: flex;
+        padding: 40px 0px;
+        position: relative;
+    
+    }
+    
+
+}
+
+
+@media (max-width:425px) {
+
+    .Rota-Privada-Informacoes{
+        width: 425px;
+        background-color: #000;
+    }
+    
+    .caixa-Privada-Informacoes{
+        width: 425px;
+        margin: auto;
+        display: flex;
+    }
+
+    .div-Infomacoes-Privada > .accordion{
+        width: 405px;
+        margin: auto;
+        position: relative;
+        left: 10px;
+
+        
+
+    }
+    
+    
+    .InformacoesConteudos{
+        width: 425px;
+        display: flex;
+        padding: 40px 0px;
+        position: relative;
+    
+    }
+    
+}
+
+
+
+@media (max-width:1000px) and (min-width:426px) {
+
+    .Rota-Privada-Informacoes{
+        width: 1279px;
+        background-color: #000;
+    }
+    
+    .caixa-Privada-Informacoes{
+        width: 1000px;
+        margin: auto;
+        display: flex;
+
+    }
+    .accordion-header > button > p{
+
+        font-size: 25px !important;
+
+
+    }
+
+    .div-Infomacoes-Privada > .accordion{
+        width: 980px;
+        margin: auto;
+        position: relative;
+        left: 10px;
+        padding: 20px !important;
+        font-size: 25px;
+
+        
+
+    }
+    
+    
+    .InformacoesConteudos{
+        width: 1000px;
+        display: flex;
+        padding: 40px 0px;
+        position: relative;
+    
+    }
+    
+}
+

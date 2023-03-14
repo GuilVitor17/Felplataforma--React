@@ -1,0 +1,17 @@
+.Rota-Privada{
+width: 100%;
+margin: auto;
+}
+
+@media (max-width:425px) {
+    .Rota-Privada{
+        width: 425px !important;
+        margin: auto;
+        }
+}
+@media (max-width:1000px) and (min-width:426px) {
+    .Rota-Privada{
+        width: 1000px !important;
+        margin: auto;
+        }
+}

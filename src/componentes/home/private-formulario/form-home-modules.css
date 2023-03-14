@@ -1,0 +1,517 @@
+.form-contato{
+width: 100%;
+height: 400px;
+background-color: #00337C;
+
+
+}
+
+.div-caixa-form{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    }
+
+    .div-form{
+        width: 480px;
+        height: 300px;
+        position: relative;
+        display: grid;
+        border-radius: 20px;
+        top: 50px;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: solid 1px #fff;
+        left: 50px;
+    }
+
+    .div-form > form{
+        width: 450px;
+        margin: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .div-form > p{
+        width: 240px;
+        height: 100px;
+        margin: auto;
+        position: absolute;
+        right: 60px;
+        bottom: -100px;
+        top: 20px;
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        box-shadow: none;
+    }
+    .div-form > form > button {
+        position: relative;
+        top: 10px;
+        display: grid;
+        width: 120px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .div-form > form>label{
+        width: 450px;
+        margin: 3px 0px;
+    
+    }
+    .div-form > form>label>input{
+        width: 450px;
+        border-radius: 5px;
+        padding: 7px;
+    }
+    .div-form > form> .label-name{
+        width: 200px;
+
+    }
+    .div-form > form> .label-Sobrename{
+        width: 200px;
+        position: absolute;
+        right:  75px;
+
+    }
+    .div-form > form> .label-name > input{
+        width: 200px;
+
+    }
+    .div-form > form> .label-Sobrename > input{
+        width: 200px;
+
+    }
+
+    .div-inf-logo{
+        width: 600px;
+        height: 300px;
+        display: flex;
+        position: relative;
+        margin: auto;
+    }
+    
+
+
+@media (max-width:1279px) and (min-width:1001px) {
+
+    .form-contato{
+        min-width: 1279px;
+        height: 400px;
+        background-color: #00337C;
+        
+        
+        }
+        
+        .div-caixa-form{
+            width: 1000px;
+            height: 400px;
+            margin: auto;
+            display: flex;
+            }
+        
+            .div-form{
+                width: 400px;
+                height: 300px;
+                position: relative;
+                display: grid;
+                border-radius: 20px;
+                top: 50px;
+                color: #fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: solid 1px #fff;
+                left: 0px;
+            }
+        
+            .div-form > form{
+                width: 350px;
+                margin: auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+            }
+            .div-form > p{
+                width: 240px;
+                height: 100px;
+                margin: auto;
+                position: absolute;
+                right: -10px;
+                bottom: -100px;
+                top: 20px;
+                display: flex;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                box-shadow: none;
+            }
+            .div-form > form > button {
+                position: relative;
+                top: 10px;
+                display: grid;
+                width: 120px;
+                text-align: center;
+                border-radius: 5px;
+                padding: 5px;
+            }
+        
+            .div-form > form>label{
+                width: 450px;
+                margin: 3px 0px;
+            
+            }
+            .div-form > form>label>input{
+                width: 450px;
+                border-radius: 5px;
+                padding: 7px;
+            }
+            .div-form > form> .label-name{
+                width: 200px;
+        
+            }
+            .div-form > form> .label-Sobrename{
+                width: 200px;
+                position: absolute;
+                right:  75px;
+        
+            }
+            .div-form > form> .label-name > input{
+                width: 200px;
+        
+            }
+            .div-form > form> .label-Sobrename > input{
+                width: 200px;
+        
+            }
+        
+            .div-inf-logo{
+                width: 600px;
+                height: 300px;
+                display: flex;
+                position: relative;
+                margin: auto;
+            }
+            
+
+}
+
+@media (max-width:425px) {
+
+    .form-contato{
+        width: 425px;
+        height: 900px;
+        background-color: #00337C;
+        
+        
+        }
+        
+        .div-caixa-form{
+            width: 425px;
+            height: 900px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            }
+
+            .div-form > form> div{
+                width: 405px;
+                left: 10px;
+                position: relative;
+                font-size: 20px;
+                top: 10px;
+              
+            }
+        
+            .div-form{
+                width: 405px;
+                height: 500px;
+                position: relative;
+                display: grid;
+                border-radius: 10px;
+                top: 50px;
+                color: #fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: solid 1px #fff;
+                left: 10px;
+            }
+        
+            .div-form > form{
+                width: 405px;
+                height: 500px;
+                margin: auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+            }
+            .div-form > p{
+                width: 370px;
+                height: 100px;
+                margin: auto;
+                position: absolute;
+                top: 40px;
+                left: 10px;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                box-shadow: none;
+
+            }
+            .div-form > form > button {
+                position:relative;
+                bottom: 0px;
+                display: grid;
+                width: 150px;
+                text-align: center;
+                border-radius: 5px;
+                padding: 10px;
+                top: 140px;
+                margin: auto;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        
+            .div-form > form>label{
+                width: 420px;
+                margin: 3px 0px;
+            
+            }
+            .div-form > form> div> div>input{
+                width: 380px;
+                border-radius: 5px;
+                padding: 10px !important;
+            }
+            .div-form > form> .label-name{
+                width: 200px;
+        
+            }
+            .div-form > form> .label-Sobrename{
+                width: 200px;
+                position: absolute;
+                right:  75px;
+        
+            }
+            .div-form > form> .label-name > input{
+                width: 200px;
+        
+            }
+            .div-form > form> .label-Sobrename > input{
+                width: 200px;
+        
+            }
+        
+            .div-inf-logo{
+                width: 405px;
+                height: 300px;
+                display: flex;
+                position: relative;
+                margin: auto;
+            }
+        
+
+}
+
+@media (max-width:575px) and (min-width:426px) {
+
+    .form-contato{
+        width: 1279px;
+        height: 1200px;
+        background-color: #00337C;
+        
+        
+        }
+        
+        .div-caixa-form{
+            width: 425px;
+            height: 900px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            }
+
+            .div-form > form> div{
+                width: 405px;
+                left: 10px;
+                position: relative;
+                font-size: 20px;
+                top: 10px;
+              
+            }
+        
+            .div-form{
+                width: 405px;
+                height: 500px;
+                position: relative;
+                display: grid;
+                border-radius: 10px;
+                top: 50px;
+                color: #fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: solid 1px #fff;
+                left: 10px;
+            }
+        
+            .div-form > form{
+                width: 405px;
+                height: 500px;
+                margin: auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+            }
+            .div-form > p{
+                width: 370px;
+                height: 100px;
+                margin: auto;
+                position: absolute;
+                top: 40px;
+                left: 10px;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                box-shadow: none;
+
+            }
+            .div-form > form > button {
+                position:relative;
+                bottom: 0px;
+                display: grid;
+                width: 150px;
+                text-align: center;
+                border-radius: 5px;
+                padding: 10px;
+                top: 140px;
+                margin: auto;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        
+            .div-form > form>label{
+                width: 420px;
+                margin: 3px 0px;
+            
+            }
+            .div-form > form> div> div>input{
+                width: 380px;
+                border-radius: 5px;
+                padding: 10px !important;
+            }
+            .div-form > form> .label-name{
+                width: 200px;
+        
+            }
+            .div-form > form> .label-Sobrename{
+                width: 200px;
+                position: absolute;
+                right:  75px;
+        
+            }
+}
+
+@media (max-width:1000px) and (min-width:576px) {
+
+    .form-contato{
+        width: 1279px;
+        height: 1200px;
+        background-color: #00337C;
+        
+        
+        }
+        
+        .div-caixa-form{
+            width: 600px;
+            height: 900px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            }
+
+            .div-form > form> div{
+                width: 600px;
+                left: 10px;
+                position: relative;
+                font-size: 20px;
+                top: 10px;
+              
+            }
+        
+            .div-form{
+                width: 600px;
+                height: 500px;
+                position: relative;
+                display: grid;
+                border-radius: 10px;
+                top: 50px;
+                color: #fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border: solid 1px #fff;
+                left: 10px;
+            }
+        
+            .div-form > form{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 25px !important;
+        
+            }
+            .div-form > p{
+                width: 400px;
+                height: 100px;
+                margin: auto;
+                position: absolute;
+                top: -0px;
+                left: -25px;
+                font-size: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                box-shadow: none;
+
+            }
+            .div-form > form > button {
+                position:relative;
+                bottom: 0px;
+                display: grid;
+                width: 200px;
+                text-align: center;
+                border-radius: 5px;
+                padding: 15px;
+                top: 150px;
+                margin: auto;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        
+            .div-form > form>label{
+                width: 500px;
+                margin: 3px 0px;
+            
+            }
+            .div-form > form> div> div>input{
+                width: 400px;
+                border-radius: 5px;
+                padding: 15px !important;
+            }
+            .div-form > form> .label-name{
+                width: 200px;
+                font-size: 25px !important;
+
+        
+            }
+            .div-form > form> .label-Sobrename{
+                width: 200px;
+                position: absolute;
+                right:  75px;
+        
+            }
+            .div-form > form> .label-name > input{
+                width: 200px;
+        
+            }
+            .div-form > form> .label-Sobrename > input{
+                width: 200px;
+        
+            }
+        
+            .div-inf-logo{
+                width: 405px;
+                height: 300px;
+                display: flex;
+                position: relative;
+                margin: auto;
+            }
+        
+        
+
+}

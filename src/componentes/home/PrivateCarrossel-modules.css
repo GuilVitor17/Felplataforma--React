@@ -1,0 +1,141 @@
+.home-Privada{
+width: 1200px;
+background-color: #fff;
+min-height: 700px;
+margin: auto;
+
+
+}
+
+.div-home-header{
+    width: 1200px;
+    height: 500px;
+    display: grid;
+    position: relative;
+    top: 120px;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #00337C;
+    color: #000;
+}
+
+.carousel-inner > .carousel-item > img{
+    width: 1280px;
+    height: 500px;
+    display: grid;
+    position: relative;
+
+}
+
+@media (max-width:1279px) and (min-width:1001px) {
+
+    .home-Privada{
+        width: 1279px;
+        background-color: #fff;
+        min-height: 700px;
+        margin: auto;
+        
+        
+        }
+        
+        .div-home-header{
+            width: 1000px;
+            height: 500px;
+            display: grid;
+            position: relative;
+            top: 120px;
+            margin: auto;
+        
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: #00337C;
+            color: #000;
+        }
+        
+        .carousel-inner > .carousel-item > img{
+            width: 1000px;
+            height: 500px;
+            display: grid;
+            position: relative;
+        
+        }
+
+}
+
+@media (max-width:425px) {
+
+    .home-Privada{
+        width: 425px;
+        background-color: #fff;
+        min-height: 500px;
+        margin: auto;
+        
+        
+        }
+        
+        .div-home-header{
+            width: 405px;
+            height: 300px;
+            display: grid;
+            position: relative;
+            top: 150px;
+            margin: auto;
+        
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: #00337C;
+            color: #000;
+            width: 60px;
+            height: 60px;
+        }
+        
+        .carousel-inner > .carousel-item > img{
+            width: 405px;
+            height: 300px;
+            display: grid;
+            position: relative;
+        
+        }
+        
+
+}
+
+
+@media (max-width:1000px) and (min-width:426px) {
+
+    .home-Privada{
+        width: 1279px;
+        background-color: #fff;
+        min-height: 900px;
+        margin: auto;
+        
+        
+        }
+        
+        .div-home-header{
+            width: 1200px;
+            height: 600px;
+            display: grid;
+            position: relative;
+            top: 200px;
+            margin: auto;
+        
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: #00337C;
+            color: #000;
+            width: 60px;
+            height: 60px;
+        }
+        
+        .carousel-inner > .carousel-item > img{
+            width: 950px;
+            height: 600px;
+            display: grid;
+            position: relative;
+        
+        }
+        
+
+}

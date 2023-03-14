@@ -1,0 +1,519 @@
+.div-navbar{
+    width: 100% !important;
+    margin: auto;
+    background-color: #00337C;
+    height: 70px;
+    box-shadow: 1px 1px 8px 1px #00337C ;
+    position: fixed;
+    z-index: 3000;
+    
+
+}
+
+ #navbarSupportedContent > ul > .nav-item > .nav-link >  button{
+ 
+    
+    top: -7px;
+    position: relative;
+    
+
+}
+
+#homepage{
+    color: #fff;
+    top: 7px;
+    position: relative;
+    
+}
+
+
+
+
+#navbarSupportedContent> .post{
+    color: transparent;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.navbar-brand > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    }
+
+#navbar{
+    width: 1280px;
+    margin: auto;
+    height: 70px;
+
+}
+
+#navbarSupportedContent{
+    position: relative;
+    right: auto;
+
+}
+#navbarSupportedContent > ul{
+    position: absolute;
+    right: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+#navbarSupportedContent > ul > li > a{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    top: 7px;
+    position: relative;
+}
+
+#navbarSupportedContent > ul > li > a{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+#navbarSupportedContent > ul > .nav-item > .nav-link > a{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+@media (max-width:1279px) and (min-width:990px) {
+
+    .div-navbar{
+        width: 100% !important;
+        margin: auto;
+        background-color: #00337C;
+        height: 70px;
+        box-shadow: 1px 1px 8px 1px #00337C ;
+        position: fixed;
+        z-index: 3000;
+        
+    
+    }
+    
+    #homepage{
+        color: #fff;
+        
+    }
+    
+    
+    #navbarSupportedContent> .post{
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+        left: -50px;
+        position: relative;
+    }
+    
+    .navbar-brand > img{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        }
+    
+    #navbar{
+        width: 1000px;
+        margin: auto;
+        height: 70px;
+    
+    }
+    
+    #navbarSupportedContent{
+        position: relative;
+        right: auto;
+    
+    }
+    #navbarSupportedContent > ul{
+        position: absolute;
+        right: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    
+    }
+    #navbarSupportedContent > ul > li > a{
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    
+    }
+    
+    #navbarSupportedContent > ul > li > a{
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    
+    }
+    #navbarSupportedContent > ul > .nav-item > .nav-link > a{
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    
+    }
+    
+
+}
+
+@media (max-width:425px) {
+    .div-navbar{
+        width: 425px !important;
+        margin: auto;
+        background-color: #00337C;
+        height: 70px;
+        box-shadow: 1px 1px 8px 1px #00337C ;
+        position: fixed;
+        z-index: 3000;
+        
+    
+    }
+
+    #navbarSupportedContent> .post{
+        color: #fff !important;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+        top: 550px !important;
+        position: relative;
+    }
+    
+    
+    #navbarSupportedContent > ul > .nav-item > .nav-link >  button{
+ 
+    
+        top: -2px;
+        position: relative;
+        
+    
+    }
+    #homepage{
+        color: #fff;
+        top: -0px;
+        
+    }
+    
+    
+    #navbarSupportedContent> .post{
+        color: transparent;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+    }
+    
+    .navbar-brand > img{
+        width: 45px;
+        height: 45px;
+        border-radius: 5px;
+        margin: 0px;
+        position: relative;
+        align-items: center;
+        align-items:center ;
+        left: 25px;
+        top: 0px;
+        
+        }
+
+        
+
+       
+        .navbar-brand{
+           
+            border-radius: 5px;
+            margin: auto;
+            left: 0;
+            position: relative;
+            align-items: center;
+            
+            }
+    
+    #navbar{
+        width: 425px;
+        margin: auto;
+        height: 70px;
+    
+    }
+    
+    #navbarSupportedContent{
+        position: absolute;
+        background-color: #fff;
+        height: 600px;
+        margin: auto;
+        width: 425px !important;
+        left: 0px;
+        top: 70px;
+        border: solid 3px #00337C;
+
+    
+    }
+    #navbarSupportedContent > ul{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        width: 425px !important;
+        text-align: center;
+        font-size: 20px;
+        height: 450px;
+        margin: auto !important;
+        position: relative;
+        left: -0px;
+        top: -10px;
+
+    
+    }
+    
+    #navbarSupportedContent > ul > li > a{
+        color: #000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        top: 0px;
+        position: relative;
+        height: 50px;
+        font-size: 20px;
+    
+    }
+    
+    #navbarSupportedContent > ul > li > a{
+        color: #000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        background-color:#00337C;
+        margin: 5px;
+        color: #fff;
+        width: 405px;
+
+    
+    }
+    #navbarSupportedContent> ul > .nav-link {
+        background-color:#00337C;
+        margin: 5px;
+        color: #fff;
+        width: 405px;
+
+    }
+    
+    #navbarSupportedContent > ul > .nav-item > .nav-link >  a{
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+       
+    
+    }
+    .navbar-brand{
+        top: -1px;
+        position: relative;
+    }
+    .navbar-toggler{
+      background-color: #fff;
+      color:#fff;
+    }
+    .dropdown-item{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        color: #000;
+        text-align: left;
+        font-size: 20px;
+        margin: 10px auto;
+        background-color: aliceblue;
+        height: 50px;
+        width: 400px;
+
+       
+    
+    }
+    
+    .dropdown-menu.show{
+        height: 200px;
+        overflow: scroll;
+        width: 405px;
+        left: 10px;
+        margin: auto;
+        transform: translateX(-5px);
+
+
+    }
+}
+
+
+
+
+@media (min-width:426px) and (max-width:990px) {
+    .div-navbar{
+        width: 1279px !important;
+        margin: auto;
+        background-color: #00337C;
+        height: 140px;
+        box-shadow: 1px 1px 8px 1px #00337C ;
+        position: fixed;
+        z-index: 3000;
+        
+    
+    }
+    
+    #navbarSupportedContent > ul > .nav-item > .nav-link >  button{
+ 
+    
+        top: 0px;
+        position: relative;
+        font: 1em sans-serif;
+        
+    
+    }
+    #homepage{
+        color: #fff;
+        top: -0px;
+        
+    }
+    
+    
+    #navbarSupportedContent> .post{
+        color: transparent;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+    }
+    
+    .navbar-brand > img{
+        width: 80px;
+        height: 70px;
+        border-radius: 5px;
+        position: relative;
+        align-items: center;
+     
+        }
+        .navbar-brand{
+           
+            border-radius: 5px;
+            margin: auto;
+            top: -10px !important;
+            position: relative;
+            left: 35px;
+            
+            }
+    
+    #navbar, .container-fluid{
+        width: 1279px;
+        margin: auto;
+        height: 140px !important;
+    
+    }
+    
+    #navbarSupportedContent{
+        position: absolute;
+        background-color: #fff;
+        height: 780px;
+        margin: auto;
+        width: 1279px !important;
+        left: 0px;
+        top: 130px;
+        border: solid 3px #00337C;
+
+    
+    }
+    #navbarSupportedContent > ul{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        width: 1200px !important;
+        text-align: center;
+        font-size: 20px;
+        height: 450px;
+        margin: auto !important;
+        position: relative;
+        left: -0px;
+        top: -10px;
+
+    
+    }
+    
+    #navbarSupportedContent > ul > li > a{
+        color: #000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        top: 0px;
+        position: relative;
+        height: 70px;
+        font-size: 20px;
+    
+    }
+    
+    #navbarSupportedContent > ul > li > a{
+        color: #000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        font-size: 25px;
+        background-color:#00337C;
+        margin: 10px 20px;
+        color: #fff;
+        width: 1150px;
+        padding: 20px;
+
+    
+    }
+    #navbarSupportedContent> ul > .nav-link {
+        background-color:#00337C;
+        margin: 5px;
+        color: #fff;
+        width: 1150px;
+        margin: auto;
+        padding: 20px;
+        margin: 10px 20px;
+        font-size: 25px;
+
+
+
+
+    }
+    
+    #navbarSupportedContent > ul > .nav-item > .nav-link >  a{
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+       
+    
+    }
+    .navbar-brand{
+        top: -1px;
+        position: relative;
+    }
+    .navbar-toggler{
+      background-color: #fff;
+      color:#fff;
+      right: 30px;
+      position: relative;
+      width: 80px;
+      height: 60px;
+      top: -10px;
+    }
+    .dropdown-item{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        color: #000;
+        text-align: left;
+        font-size: 20px;
+        margin: 10px auto;
+        background-color: aliceblue;
+        height: 50px;
+        width: 1150px;
+
+       
+    
+    }
+    
+    .dropdown-menu.show{
+        height: 200px;
+        overflow: scroll;
+        width: 1150px;
+        left: 10px;
+        margin: auto;
+        transform: translateX(-5px);
+
+
+    }
+    .private-rede-social>.div-menu{
+        display: none;
+    }
+}

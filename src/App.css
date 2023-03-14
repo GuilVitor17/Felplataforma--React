@@ -1,0 +1,25 @@
+#root, body{
+    margin: 0px;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+@media (max-width:425px) {
+    #root, html, body{
+        margin: 0px;
+        background-color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 425px;
+    
+    }
+}
+@media (max-width:1000px) and (min-width:426px) {
+    #root, html, body{
+        margin: 0px;
+        background-color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 1000px;
+    
+    }
+}
