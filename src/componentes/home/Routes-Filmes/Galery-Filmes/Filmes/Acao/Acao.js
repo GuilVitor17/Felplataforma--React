@@ -105,6 +105,25 @@ fetchUsers();
          )}
     
 </Carousel>
+
+<div className="carrossel-mobile">
+
+
+{Filme.length > 0 &&
+       Filme.map((Filme) => (
+         <FilmeAcaoInfomacoes
+         titulo={Filme.titulo}
+         Id={Filme._id}
+         descricaoMin={Filme.descricaoMin}
+         img={Filme.img}
+         data={Filme.data}
+         />
+       )     
+
+         )}
+    
+
+      </div>
     </div>
   )
 

@@ -280,6 +280,28 @@ const Buscarlivro = () => {
 
                         )}
                 </Carousel>
+
+                <div className="carrossel-mobile">
+
+
+        {livros.length > 0 &&
+          livros.map((livros) => (
+            <LivrosAventuraInfomacoesBusca
+              titulo={livros.titulo}
+              Id={livros._id}
+              descricaoMin={livros.descricaoMin}
+              img={livros.img}
+              data={livros.data}
+
+            />
+          )
+
+          )}
+
+      </div>
+
+
+
                 <Carousel className="carrossel"
                     plugins={[
                         'centered',
@@ -337,6 +359,27 @@ const Buscarlivro = () => {
 
                         )}
                 </Carousel>
+
+                <div className="carrossel-mobile">
+
+
+{livros1.length > 0 &&
+  livros1.map((livros1) => (
+    <LivrosAventuraInfomacoesBusca1
+      titulo={livros1.titulo}
+      Id={livros1._id}
+      descricaoMin={livros1.descricaoMin}
+      img={livros1.img}
+      data={livros1.data}
+
+    />
+  )
+
+  )}
+
+</div>
+
+                
 
                 <Carousel className="carrossel"
                     plugins={[
@@ -396,6 +439,25 @@ const Buscarlivro = () => {
                         )}
                 </Carousel>
 
+                <div className="carrossel-mobile">
+
+
+{livros2.length > 0 &&
+  livros2.map((livros2) => (
+    <LivrosAventuraInfomacoesBusca2
+      titulo={livros2.titulo}
+      Id={livros2._id}
+      descricaoMin={livros2.descricaoMin}
+      img={livros2.img}
+      data={livros2.data}
+
+    />
+  )
+
+  )}
+
+</div>
+
                 <Carousel className="carrossel"
                     plugins={[
                         'centered',
@@ -453,6 +515,25 @@ const Buscarlivro = () => {
 
                         )}
                 </Carousel>
+
+                <div className="carrossel-mobile">
+
+
+{livros3.length > 0 &&
+  livros3.map((livros3) => (
+    <LivrosAventuraInfomacoesBusca3
+      titulo={livros3.titulo}
+      Id={livros3._id}
+      descricaoMin={livros3.descricaoMin}
+      img={livros3.img}
+      data={livros3.data}
+
+    />
+  )
+
+  )}
+
+</div>
 
                 <Carousel className="carrossel"
                     plugins={[
@@ -512,6 +593,25 @@ const Buscarlivro = () => {
                         )}
                 </Carousel>
 
+                <div className="carrossel-mobile">
+
+
+{livros4.length > 0 &&
+  livros4.map((livros4) => (
+    <LivrosAventuraInfomacoesBusca1
+      titulo={livros4.titulo}
+      Id={livros4._id}
+      descricaoMin={livros4.descricaoMin}
+      img={livros4.img}
+      data={livros4.data}
+
+    />
+  )
+
+  )}
+
+</div>
+
                 <Carousel className="carrossel"
                     plugins={[
                         'centered',
@@ -569,6 +669,25 @@ const Buscarlivro = () => {
 
                         )}
                 </Carousel>
+
+                <div className="carrossel-mobile">
+
+
+{livros5.length > 0 &&
+  livros5.map((livros5) => (
+    <LivrosAventuraInfomacoesBusca5
+      titulo={livros5.titulo}
+      Id={livros5._id}
+      descricaoMin={livros5.descricaoMin}
+      img={livros5.img}
+      data={livros5.data}
+
+    />
+  )
+
+  )}
+
+</div>
             </div>
 
         </div>

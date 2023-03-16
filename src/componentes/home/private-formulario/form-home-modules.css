@@ -307,7 +307,7 @@ background-color: #00337C;
 @media (max-width:575px) and (min-width:426px) {
 
     .form-contato{
-        width: 1279px;
+        width: 1000px;
         height: 1200px;
         background-color: #00337C;
         
@@ -402,7 +402,7 @@ background-color: #00337C;
 @media (max-width:1000px) and (min-width:576px) {
 
     .form-contato{
-        width: 1279px;
+        width: 1000px;
         height: 1200px;
         background-color: #00337C;
         

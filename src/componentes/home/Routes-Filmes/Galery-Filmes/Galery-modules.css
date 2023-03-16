@@ -12,10 +12,25 @@
 
 }
 
+.Galery > .caixaLogos{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.Galery > .caixaLogos > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 5px;
+    margin: auto;
+    border: 1px solid #fff;
+}
+
 .carrossel-livro-destaque{
     width: 1200px;
     margin: auto;
-    min-height: 700px;
+    min-height: 70px;
     top: 70px;
     position: relative;
 
@@ -23,7 +38,7 @@
 .carrossel-filmes-destaque{
     width: 1200px;
     margin: auto;
-    min-height: 700px;
+    min-height: 70px;
     top: 70px;
     position: relative;
 
@@ -89,6 +104,22 @@
         margin: auto;
         min-height: 700px;
     }
+
+
+    .Galery > .caixaLogos{
+        width: 400px;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    
+    .Galery > .caixaLogos > div{
+        width: 400px;
+        height: 500px;
+        margin: 20px 5px;
+        margin: auto;
+        border: 1px solid #fff;
+    }
     
     .Galery > .carrossel-livro{
         width: 1100px;
@@ -98,10 +129,12 @@
     
     }
     
+
+    
     .carrossel-livro-destaque{
         width: 400px;
         margin: auto;
-        min-height: 700px;
+        min-height: 70px;
         top: 70px;
         position: relative;
     
@@ -109,7 +142,7 @@
     .carrossel-filmes-destaque{
         width: 400px;
         margin: auto;
-        min-height: 700px;
+        min-height: 70px;
         top: 70px;
         position: relative;
     
@@ -176,7 +209,7 @@
 }
 
 
-@media (max-width:1279px) and (min-width:426px) {
+@media (max-width:1279px) and (min-width:1001px) {
 
 
     .Galery{
@@ -195,14 +228,14 @@
     
     .carrossel-livro-destaque{
         margin: auto;
-        min-height: 700px;
-        top: 70px;
+        min-height: 150px;
+        top: 100px;
         position: relative;
     
     }
     .carrossel-filmes-destaque{
         margin: auto !important;
-        min-height: 700px;
+        min-height: 70px;
         top: 150px;
         position: relative;
         width: 1100px;
@@ -211,7 +244,7 @@
     }
     .Destaque {
         width: 1200px;
-        height: 450px;
+        height: 70px;
         font-size: 15px;
         color: #fff;
         margin: 25px 0px;
@@ -233,6 +266,7 @@
     .Galery > .caixaFilmes{
         width: 1279px;
         margin: auto;
+        position: relative;
     }
     
     .Galery > .caixaLivros > div{
@@ -240,6 +274,21 @@
         height: 500px;
         margin: 20px 0px;
         margin: auto;
+    }
+
+    .Galery > .caixaLogos{
+        width: 1200px;
+        margin: auto;
+        position: relative;
+        top: -0px;
+    }
+    
+    .Galery > .caixaLogos > div{
+        width: 1200px;
+        height: 500px;
+        margin: 20px 5px;
+        margin: auto;
+        border: 1px solid #fff;
     }
 
     .Galery > .caixaLivros > div > div{
@@ -273,4 +322,127 @@
     }
     
    
+}
+
+
+@media (max-width:1000px) and (min-width:426px) {
+
+
+
+    .Galery{
+        width: 100%;
+        margin: auto;
+        min-height: 700px;
+    }
+    
+    .Galery > .carrossel-livro{
+        width: 1100px;
+        margin: auto;
+        min-height: 700px;
+        position: relative;
+    
+    }
+    
+    .carrossel-livro-destaque{
+        width: 400px;
+        margin: auto;
+        min-height: 70px;
+        top: 70px;
+        position: relative;
+    
+    }
+    .carrossel-filmes-destaque{
+        width: 400px;
+        margin: auto;
+        min-height: 70px;
+        top: 70px;
+        position: relative;
+    
+    }
+    
+    .carrossel-livro-destaque .Voltar> svg{
+        width: 30px;
+        height: 30px;
+        top: 30px;
+        position: relative;
+    }
+    
+    .Galery > .caixaLivros{
+        width: 1200px;
+        margin: auto;
+    }
+    
+    .Galery > .caixaFilmes{
+        width: 900px;
+        margin: auto;
+        
+    }
+    
+    .Galery > .caixaLivros > div{
+        width: 1200px;
+        height: 500px;
+        margin: 20px 0px;
+        margin: auto;
+    }
+    
+    
+    .Galery > .caixaFilmes{
+        width: 900px;
+        margin: auto;
+        top: 50px !important;
+        min-height: 3200px !important;
+        position: relative;
+    }
+
+    .Galery > .caixaLogos{
+        width: 900px;
+        margin: auto;
+        top: 50px !important;
+        min-height: 800px !important;
+        position: relative;
+    }
+    .Galery > .caixaLogos > div {
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        top: 100px;
+        position: relative;
+        background-color:#e0e0e0;
+        box-shadow: 1px 1px 0px 10px #fff;
+    }
+
+    .Galery > .caixaFilmes > div {
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        top: 100px;
+        position: relative;
+        background-color:#e0e0e0;
+        box-shadow: 1px 1px 0px 10px #fff;
+    }
+
+    .Galery > .caixaFilmes-div{
+        width: 900px;
+        margin: auto;
+        top: 200px !important;
+        min-height: 2750px !important;
+        position: relative;
+    }
+    
+    .Galery > .caixaFilmes-div > div {
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        top: 50px;
+        background-color:#e0e0e0;
+        box-shadow: 1px 1px 0px 10px #fff;
+    }
+
+    .BrainhubCarousel .BrainhubCarousel__trackContainer {
+        width: 100%;
+        overflow: hidden;
+        height: 500px;
+
+    }
+
 }

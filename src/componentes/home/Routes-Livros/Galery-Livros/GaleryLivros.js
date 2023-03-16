@@ -19,7 +19,6 @@ const GaleryLivros = () => {
 
             <div className="carrossel-livro-destaque">
            
-            <DestaqueLivros />
             </div>
 
             <div className="caixaLivros">

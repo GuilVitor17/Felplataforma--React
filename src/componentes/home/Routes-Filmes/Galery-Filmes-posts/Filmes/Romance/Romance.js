@@ -106,6 +106,25 @@ fetchUsers();
     
 </Carousel>
 
+<div className="carrossel-mobile">
+
+
+{filmess.length > 0 &&
+       filmess.map((filmess) => (
+         <FilmesRomanceInfomacoes
+         titulo={filmess.titulo}
+         Id={filmess._id}
+         descricao={filmess.descricao}
+         img={filmess.img}
+         data={filmess.data}
+         />
+       )     
+
+         )}
+    
+    
+    </div>
+
     </div>
   )
 }

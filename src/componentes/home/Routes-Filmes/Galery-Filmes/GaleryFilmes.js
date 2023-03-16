@@ -17,9 +17,7 @@ const GaleryFilmes = () => {
          <div className="Galery">
 
             <div className="carrossel-filmes-destaque">
-           
-            <Destaquefilmes />
-            </div>
+          </div>
 
             <div className="caixaFilmes">
                 <div className="Aventuras"><FilmeAcao /></div>

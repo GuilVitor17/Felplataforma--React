@@ -102,6 +102,23 @@ fetchUsers();
          )}
     
 </Carousel>
+
+<div className="carrossel-mobile">
+
+
+{livros.length > 0 &&
+       livros.map((livros) => (
+         <LogomarcasInfomacoes
+         titulo={livros.titulo}
+         Id={livros._id}
+         descricaoMin={livros.descricaoMin}
+         img={livros.img}
+         data={livros.data}
+         />
+       )     
+
+         )}
+      </div>
     </div>
   )
 

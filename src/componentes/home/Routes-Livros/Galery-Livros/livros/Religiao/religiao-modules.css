@@ -175,14 +175,12 @@
 
 .description-id > .div-descricao-id{
     width: 800px;
-    background-color: rgb(215, 30, 221);
     position: relative;
 }
 
 .description-id > a > .button-livro-id{
     width: 300px;
     position: relative;
-    background-color: rgb(30, 199, 221);
 }
 
 .description-id > a > .button-livro-id > button{
@@ -190,7 +188,6 @@
     padding: 5px;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(30, 199, 221);
     position: absolute;
     right: 0;
     margin: 10px;

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom";
 import '../routesLogos-modules.css'
 import LogosMarcas from "./Logos/Logo-marcas/Logo";
-import DestaqueLogos from "./Logos/Destaques/destaque";
 
 
 const GaleryLogos = () => {
@@ -11,12 +10,11 @@ const GaleryLogos = () => {
     return(
          <div className="Galery">
 
-            <div className="carrossel-livro-destaque">
+<div className="carrossel-livro-destaque">
            
-            <DestaqueLogos />
-            </div>
-
-            <div className="caixaLivros">
+           </div>
+            
+            <div className="caixaLogos">
                 <div className="Aventuras"><LogosMarcas /></div>
             </div>
             

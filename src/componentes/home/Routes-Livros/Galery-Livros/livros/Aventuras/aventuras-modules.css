@@ -362,6 +362,8 @@
     
     }
     
+
+    
     
     
     .div-Id-livro{
@@ -512,7 +514,7 @@
 
     #button-pesquisa{
         position: absolute;
-        z-index:0;
+        z-index:1000;
         height: 70px;
     }
 
