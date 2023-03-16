@@ -81,7 +81,7 @@
     .carrossel-Filme-destaque-edit{
         width: 400px;
         margin: auto;
-        height: 1500px;
+        height: 900px !important;
         top: 70px;
         position: relative;
     
