@@ -190,7 +190,7 @@
 }
 
 
-@media (min-width:426px) and (max-width:1279px) {
+@media (min-width:1001px) and (max-width:1279px) {
 
     .carrossel > div {
 
@@ -462,8 +462,8 @@
         height: 1000px;
         margin: auto;
         flex-direction: column;
-        display: flex;
-        position: relative;
+        display: flex !important;
+        position: relative !important;
         
     }
     
@@ -580,8 +580,7 @@
     }
     .div-inf-id {
         width: 400px;
-        height: 530px !important;
-        background-color: rgb(61, 42, 165);
+        height: 550px !important;
         margin: auto;
         position: relative;
     }
@@ -687,7 +686,7 @@
     
     
     .div-Id-livro{
-        width: 1279px !important;
+        width: 1000px !important;
         height: 1000px;
         background-color: #fff;
         flex-direction: column;
@@ -695,7 +694,7 @@
     }
     
     .div-inf-livro{
-        width: 1279px !important;
+        width: 1000px !important;
         height: 1000px;
         background-color: #fff;
         margin: auto;
@@ -705,7 +704,7 @@
     }
     
     .center-infor-livro{
-        width: 1279px !important;
+        width: 1000px !important;
         height: 1000px;
         margin: auto;
         flex-direction: column;
@@ -919,37 +918,37 @@
     
 
     .opcoesLivros, .opcoesLivros>.div-livros, .opcoesLivros>.div-livros>div {
-        width: 1200px !important;
+        width: 900px !important;
         margin: auto !important;
 
     }
     .opcoesLivros {
-        width: 1279px !important;
+        width: 900px !important;
         margin: auto !important;
 
     }
 
     .opcoesfilmes, .opcoesfilmes>.div-filmes, .opcoesfilmes>.div-filmes>div {
-        width: 1200px !important;
+        width: 900px !important;
         margin: auto !important;
 
     }
 
     .opcoesfilmes {
-        width: 1279px !important;
+        width: 900px !important;
         margin: auto !important;
 
     }
 
 
     .opcoeslogos, .opcoeslogos>.div-logos, .opcoeslogos>.div-logos>div {
-        width: 1200px !important;
+        width: 900px !important;
         margin: auto !important;
 
     }
 
     .opcoeslogos {
-        width: 1200px !important;
+        width: 900px !important;
         margin: auto !important;
 
     }
