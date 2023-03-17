@@ -503,14 +503,14 @@
     
     .div-inf-atores{
         width: 405px !important;
-        height: 130px !important;
+        height: 110px !important;
         position: absolute !important;
         display: flex;
         margin: auto;
         left: 10px;
         flex-direction: row;
         overflow: scroll;
-        bottom: -840px;
+        bottom: -865px;
     }
     
     
@@ -717,11 +717,8 @@
 
     .div-Id-livro>.div-inf-livro>.center-infor-livro>.div-caixa-img {
         width: 425px;
-        height: 1700px !important;
         margin: auto;
         flex-direction: column;
-        display: flex;
-        position: relative;
     }
     
     
