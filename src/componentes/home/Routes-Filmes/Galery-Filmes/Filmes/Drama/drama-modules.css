@@ -462,8 +462,7 @@
         height: 1000px;
         margin: auto;
         flex-direction: column;
-        display: flex !important;
-        position: relative !important;
+        
         
     }
     
