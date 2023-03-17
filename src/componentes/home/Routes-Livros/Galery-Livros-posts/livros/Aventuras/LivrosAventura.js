@@ -24,13 +24,44 @@ const LivrosAventuraInfomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
  axios.delete(`${process.env.REACT_APP_BASE_URL_GALERY}/aventura/${Id}`, {
   
 })
- .then(data =>{
-  console.log(data.id)
-  alert('Livro Excluido')
- })
+.then(async response => {
+  let timerInterval
+          await Swal.fire({
+            title: 'EXCLUINDO LIVRO AVENTURA !',
+            html: 'AGUARDE <b></b>',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+              Swal.showLoading()
+              const b = Swal.getHtmlContainer().querySelector('b')
+              timerInterval = setInterval(() => {
+                b.textContent = Swal.getTimerLeft()
+              }, 100)
+            },
+            willClose: () => {
+              clearInterval(timerInterval)
+            }
+          }).then( async(result) => {
+            if (result.dismiss === Swal.DismissReason.timer) {
+            }
+     
+      await Swal.fire({
+          position: 'top-end',
+          icon: 'success',
+          title: `LIVRO EXCLUIDO`,
+          showConfirmButton: false,
+          timer: 3000,
+        })
+ 
+})
+})
  .catch((err) => console.log(err))
 
- 
+ Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'ALGO SAIU ERRADO',
+})
 }
 
     
