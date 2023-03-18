@@ -57,7 +57,7 @@ const InfPrivate = () => {
     </h2>
     <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
       <div className="accordion-body">
-        <strong>MENSAGEM DE CONTATO</strong> - Digite uma mensagem, O que você gostaria, um filme, um livro, ou se você achar entesante e gostar das logo mande seus dados e através do formulário entraremos em contato.
+        <strong>MENSAGEM DE CONTATO</strong> - Digite uma mensagem, O que você gostaria, um filme, um livro, ou se você gostar das logo mande seus dados e através do formulário entraremos em contato.
 
       </div>
       
