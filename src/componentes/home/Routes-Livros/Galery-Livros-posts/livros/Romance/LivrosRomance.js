@@ -79,7 +79,7 @@ const LivrosRomanceInfomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
                 <h6 className="card-text">{descricaoMin}</h6>
                   <h5 className="card-genero" id="romanceColor">Romance</h5>
                   <h5 className="card-date">{data}</h5>
-                  <Link className="Btn-livro" to={`/livros/romance/${Id}`}><button type="button" onClick={saveId} className="btn btn-primary">
+                  <Link className="Btn-livro" to={`/livros/romances/${Id}`}><button type="button" onClick={saveId} className="btn btn-primary">
                     Ver livro
                   </button></Link>
                   <div className="button-crud">
