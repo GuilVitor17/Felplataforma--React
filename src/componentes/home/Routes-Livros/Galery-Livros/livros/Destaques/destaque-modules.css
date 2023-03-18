@@ -86,8 +86,8 @@
     width: 80px;
     height: 20px;
     position:absolute;
-    right: 0;
-    top:10px !important;
+    right: 0px;
+    top:5px !important;
     font-size: 15px;
     color: tomato;
     text-align: center !important;
