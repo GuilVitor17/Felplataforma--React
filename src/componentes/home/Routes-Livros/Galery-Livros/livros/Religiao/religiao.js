@@ -95,8 +95,8 @@ fetchUsers();
          <LivrosReligiaoInfomacoes
          titulo={livros.titulo}
          Id={livros._id}
-         descricao={livros.descricao}
-         img={livros.img}
+descricao={livros.descricao}
+         descricaoMin={livros.descricaoMin}         img={livros.img}
          />
        )     
 

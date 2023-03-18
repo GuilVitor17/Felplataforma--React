@@ -71,8 +71,8 @@ fetchUsers();
          titulo={livros.titulo}
          editora={livros.editora}
          pagina={livros.pagina}
-         descricao={livros.descricao}
-         nameImage={livros.nameImage}
+descricao={livros.descricao}
+         descricaoMin={livros.descricaoMin}         nameImage={livros.nameImage}
          img={livros.img}
          />   
        )              

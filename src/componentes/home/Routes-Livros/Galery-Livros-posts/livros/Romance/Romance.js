@@ -67,8 +67,8 @@ fetchUsers();
          <LivrosRomanceInfomacoes
          titulo={livros.titulo}
          Id={livros._id}
-         descricao={livros.descricao}
-         img={livros.img}
+descricao={livros.descricao}
+         descricaoMin={livros.descricaoMin}         img={livros.img}
          data={livros.data}
          />
        )     
@@ -85,8 +85,8 @@ fetchUsers();
          <LivrosRomanceInfomacoes
          titulo={livros.titulo}
          Id={livros._id}
-         descricao={livros.descricao}
-         descricaoMin={livros.descricaoMin}
+descricao={livros.descricao}        
+                 descricaoMin={livros.descricaoMin}
          img={livros.img}
          data={livros.data}
          />
