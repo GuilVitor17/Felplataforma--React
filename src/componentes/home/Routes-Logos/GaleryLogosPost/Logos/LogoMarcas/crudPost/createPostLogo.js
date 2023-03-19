@@ -68,7 +68,7 @@ const CreateAcao = () => {
  descricao: Descricao,
             data: Data,
             img: Img,
-            linkFilme: LinkFilme,
+            linkLivro: LinkFilme,
             ano: Ano,
             
         })
