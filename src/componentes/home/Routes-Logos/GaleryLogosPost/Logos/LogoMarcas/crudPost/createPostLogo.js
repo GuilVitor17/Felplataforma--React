@@ -144,10 +144,6 @@ const CreateAcao = () => {
           <label for="inputEmail4" class="form-label">Descrição minima</label>
           <input type="text" onChange={handleDescricaoMin} placeholder='DESCRIÇÃO MINIMA DO LIVRO' value={DescricaoMin} maxlength={70} class="form-control" id="inputEmail4" />
         </div>
-        <div class="col-md-3">
-          <label for="inputEmail4" class="form-label">Url da Imagem</label>
-          <input type="text" onChange={handleImg} placeholder="URL - MAX 50KB" value={Img} class="form-control" id="inputEmail4" />
-        </div>
         <div class="col-5">
           <label for="inputAddress2" class="form-label">Descrição Detalhada</label>
    <input type="text" class="form-control" onChange={handleDescricao} required placeholder="DESCRIÇAO DETALHADA DO LIVRO" maxLength={150}  value={Descricao} id="inputAddress2" />

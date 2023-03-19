@@ -7,6 +7,7 @@ import '../../../routesLogos-modules.css'
 import PrivatesForm from "../../../../private-formulario/form-private-home";
 import Navbar from "../../../../../Navbar/navbar";
 import LogoDestaque from '../Destaques/destaque'
+import Img from '../../../../../img/LogoImage.png'
 
 
 const Logomarcas = () => {
@@ -66,7 +67,7 @@ const Logomarcas = () => {
 
             <div className="div-caixa-img">
 
-              <div className="div-img-id"><img src={livros.img} /></div>
+              <div className="div-img-id"><img src={Img} /></div>
               <div className="div-inf-id">
                 <p>TITULO - {livros.titulo}</p>
                 <p>AUTOR - {livros.autor}</p>

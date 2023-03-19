@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import '../../../routesLogos-modules.css'
+import Img from '../../../../../img/LogoImage.png'
 
 
 const LogomarcasInfomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
@@ -21,7 +22,7 @@ const LogomarcasInfomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
 
            
               <div className="card">
-                <img src={img} className="card-img-top" />
+                <img src={Img} className="card-img-top" />
                 <div className="card-body">
                 <h5 className="card-title">{titulo}</h5>
                 <h6 className="card-text">{descricaoMin}</h6>
