@@ -72,9 +72,9 @@ fetchUsers();
                     <p>AUTOR - {livros.autor}</p>
                     <p>PAGINA - {livros.pagina} </p>
                     <p>ANO - {livros.ano}</p>
-                    <p>GENERO - {livros.genero}</p>
-                    <p>FORMATO - {livros.formato}</p>
-                    <p>NOME IMAGE - {livros.nameImage}</p>
+                    <p>DATA - {livros.data}</p>
+                    <p>GENERO - Religiao</p>
+                    <p>FORMATO - Pdf</p>
                   </div>
 
                 </div>
