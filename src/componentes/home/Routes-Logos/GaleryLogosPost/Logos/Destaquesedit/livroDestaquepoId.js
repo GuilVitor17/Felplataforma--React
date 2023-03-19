@@ -63,7 +63,7 @@ fetchUsers();
                   <div className="div-img-id"><img src={livros.img}/></div>
                   <div className="div-inf-id">
                     <p>TITULO - {livros.titulo}</p>
-                    <p>AUTOR - {livros.autor}</p>
+                    <p>AUTOR - felplataforma(Guil Vitor)</p>
                     <p>PAGINA - {livros.pagina} </p>
                     <p>ANO - {livros.ano}</p>
                     <p>DATA - {livros.data}</p>
