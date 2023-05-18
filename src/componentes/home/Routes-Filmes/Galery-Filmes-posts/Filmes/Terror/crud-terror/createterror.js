@@ -131,12 +131,12 @@ const createTerror = () => {
         console.log('fui-clicado')
 
 
-        axios.post('${process.env.REACT_APP_BASE_URL_GALERY}/Terror', {
-            titulo: Titulo,
+        axios.post(`${process.env.REACT_APP_BASE_URL_GALERY}/filmeterror`, {
+      titulo: Titulo,
       diretor: Diretor,
       duracao: Duracao,
-       descricaoMin: DescricaoMin,
- descricao: Descricao,
+      descricaoMin: DescricaoMin,
+      descricao: Descricao,
       data: Data,
       img: Img,
       linkFilme: LinkFilme,

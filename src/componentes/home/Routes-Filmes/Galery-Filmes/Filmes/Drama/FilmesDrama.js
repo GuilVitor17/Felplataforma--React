@@ -25,7 +25,7 @@ const FilmesDramaInfomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
                 <div className="card-body">
                 <h5 className="card-title">{titulo}</h5>
                 <h6 className="card-text">{descricaoMin}</h6>
-                  <h5 className="card-genero-4"><b>Drama</b></h5>
+                  <h5 className="card-genero-4"><b>Terror</b></h5>
                   <h5 className="card-date">{data}</h5>
                   <Link className="Btn-livro" to={`/filmes/drama/${Id}`}><button type="button" onClick={saveId} className="btn btn-primary">
                     Ver filme  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">

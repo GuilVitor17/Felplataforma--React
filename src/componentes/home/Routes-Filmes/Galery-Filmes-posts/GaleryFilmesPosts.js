@@ -41,7 +41,7 @@ const GaleryFilmesPosts = () => {
                 <div className="Religiao"><Infantilfilmes/></div>
                 <div className="Infantil"><Dramafilmes/></div>
                 <div className="Historia"><Romancefilmes /></div>
-                <div className="Literatura"><Terrorfilmess /></div>
+                {/* <div className="Literatura"><Terrorfilmess /></div> */}
             </div>
 
 

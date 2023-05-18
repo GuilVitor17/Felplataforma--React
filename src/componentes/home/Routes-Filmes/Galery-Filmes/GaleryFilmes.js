@@ -22,7 +22,7 @@ const GaleryFilmes = () => {
             <div className="caixaFilmes">
                 <div className="Aventuras"><FilmeAcao /></div>
                 <div className="Romance"><FilmesComedia/></div>
-                <div className="Religiao"><TerrorFilmes /></div>
+                {/* <div className="Religiao"><TerrorFilmes /></div> */}
                 <div className="Infantil"><Desenhofilmes /></div>
                 <div className="Historia"><Dramafilmes /></div>
                 <div className="Literatura"><Romancefilmes /></div>

@@ -136,12 +136,12 @@ const filmessUpdateTerror = (filmessUpdate) => {
         e.preventDefault()
 
 
-        axios.put(`${process.env.REACT_APP_BASE_URL_GALERY}/Terror/${id}`, {
+        axios.put(`${process.env.REACT_APP_BASE_URL_GALERY}/filmeterror/${id}`, {
             titulo: Titulo,
             diretor: Diretor,
             duracao: Duracao,
-             descricaoMin: DescricaoMin,
- descricao: Descricao,
+            descricaoMin: DescricaoMin,
+            descricao: Descricao,
             data: Data,
             img: Img,
             linkFilme: LinkFilme,
