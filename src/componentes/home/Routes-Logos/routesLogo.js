@@ -57,13 +57,7 @@ const RoutesPrivatesLogos = () => {
 
     return(
          <div className="Rota-Privada">
-             <Navbar />
-             <div className="Galery-Logos">
-
-                <GaleryLogos />
-
-             </div>
-             <PrivatesForm />
+            
           
          
         </div>

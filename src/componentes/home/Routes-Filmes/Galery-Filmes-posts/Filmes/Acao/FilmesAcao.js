@@ -22,7 +22,7 @@ const filmesAcao1Infomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
       e.preventDefault()
    
 
- axios.delete(`${process.env.REACT_APP_BASE_URL_GALERY}/Acao/${Id}`, {
+ axios.delete(`${process.env.REACT_APP_BASE_URL_GALERY}/filmeacao/${Id}`, {
   
 })
 .then(async response => {

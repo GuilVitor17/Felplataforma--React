@@ -6,7 +6,6 @@ import Navbar from "../Navbar/navbar";
 import './PrivateCarrossel-modules.css'
 import CapaLivros from '../img/CapaLivros.png'
 import CapaFilmes from '../img/CapaFilmes.png'
-import CapaLogos from '../img/CapaLogos.png'
 
 
 const PrivateHome = () => {
@@ -19,7 +18,6 @@ const PrivateHome = () => {
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -28,9 +26,7 @@ const PrivateHome = () => {
     <div class="carousel-item">
       <img src={CapaFilmes} class="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item">
-      <img src={CapaLogos} class="d-block w-100" alt="..."/>
-    </div>
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

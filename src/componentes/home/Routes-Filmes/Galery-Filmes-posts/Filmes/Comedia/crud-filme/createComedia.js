@@ -143,21 +143,7 @@ const createComedia = () => {
       img: Img,
       linkFilme: LinkFilme,
       ano: Ano,
-      nomeAutor1: NomeAtor1,
-      nomeAutor1filme: NomeAtor1Filme,
-      imgAutor1: ImageAtor1,
-      nomeAutor2: NomeAtor2,
-      nomeAutor2filme: NomeAtor2Filme,
-      imgAutor2: ImageAtor2,
-      nomeAutor3: NomeAtor3,
-      nomeAutor3filme: NomeAtor3Filme,
-      imgAutor3: ImageAtor3,
-      nomeAutor4: NomeAtor4,
-      nomeAutor4filme: NomeAtor4Filme,
-      imgAutor4: ImageAtor4,
-      nomeAutor5: NomeAtor5,
-      nomeAutor5filme: NomeAtor5Filme,
-      imgAutor5: ImageAtor5,
+      
     })
     .then(async response => {
       let timerInterval
@@ -212,7 +198,7 @@ const createComedia = () => {
         <h5>publicar Filme Comedia</h5>
         <div class="col-md-4">
           <label for="inputEmail4" class="form-label">Titulo</label>
-          <input type="text" onChange={handleTitulo} required placeholder="TITULO DO FILME" value={Titulo} class="form-control" id="inputEmail4" />
+          <input type="text" onChange={handleTitulo}  placeholder="TITULO DO FILME" value={Titulo} class="form-control" id="inputEmail4" />
         </div>
         <div class="col-md-3">
           <label for="inputPassword4" class="form-label">Diretor</label>
@@ -236,7 +222,7 @@ const createComedia = () => {
         </div>
         <div class="col-5">
           <label for="inputAddress2" class="form-label">Descrição Detalhada</label>
-   <input type="text" class="form-control" onChange={handleDescricao} required placeholder="DESCRIÇAO DETALHADA DO LIVRO" maxLength={150}  value={Descricao} id="inputAddress2" />
+   <input type="text" class="form-control" onChange={handleDescricao}  placeholder="DESCRIÇAO DETALHADA DO LIVRO" maxLength={150}  value={Descricao} id="inputAddress2" />
         </div>
         <div class="col-md-3">
           <label for="inputCity" class="form-label">Link do FILME</label>
@@ -245,72 +231,72 @@ const createComedia = () => {
 
         <div class="col-md-3">
           <label for="inputCity" class="form-label">DURACAO DO FILME </label>
-          <input type="text" onChange={handleDuracao} required placeholder="DURACAO DO FILME" value={Duracao} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleDuracao}  placeholder="DURACAO DO FILME" value={Duracao} class="form-control" id="inputCity" />
         </div>
 
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 1 </label>
-          <input type="text" onChange={handleAtor1} required placeholder="NOME AUTOR" value={NomeAtor1} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor1}  placeholder="NOME AUTOR" value={NomeAtor1} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 1 </label>
-          <input type="text" onChange={handleAtor1Filme} required placeholder="NOME FILME" value={NomeAtor1Filme} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor1Filme}  placeholder="NOME FILME" value={NomeAtor1Filme} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">IMAGE AUTOR 1 </label>
-          <input type="text" onChange={handleAtorImage1} required placeholder="NOME AUTOR " value={ImageAtor1} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtorImage1}  placeholder="NOME AUTOR " value={ImageAtor1} class="form-control" id="inputCity" />
         </div>
 
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 2 </label>
-          <input type="text" onChange={handleAtor2} required placeholder="NOME AUTOR" value={NomeAtor2} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor2}  placeholder="NOME AUTOR" value={NomeAtor2} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 2 </label>
-          <input type="text" onChange={handleAtor2Filme} required placeholder="NOME FILME" value={NomeAtor2Filme} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor2Filme}  placeholder="NOME FILME" value={NomeAtor2Filme} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">IMAGE AUTOR 2 </label>
-          <input type="text" onChange={handleAtorImage2} required placeholder="NOME AUTOR " value={ImageAtor2} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtorImage2}  placeholder="NOME AUTOR " value={ImageAtor2} class="form-control" id="inputCity" />
         </div>
 
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 3 </label>
-          <input type="text" onChange={handleAtor3} required placeholder="NOME AUTOR" value={NomeAtor3} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor3}  placeholder="NOME AUTOR" value={NomeAtor3} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 3 </label>
-          <input type="text" onChange={handleAtor3Filme} required placeholder="NOME FILME" value={NomeAtor3Filme} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor3Filme}  placeholder="NOME FILME" value={NomeAtor3Filme} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">IMAGE AUTOR 3 </label>
-          <input type="text" onChange={handleAtorImage3} required placeholder="NOME AUTOR " value={ImageAtor3} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtorImage3}  placeholder="NOME AUTOR " value={ImageAtor3} class="form-control" id="inputCity" />
         </div>
 
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 4 </label>
-          <input type="text" onChange={handleAtor4} required placeholder="NOME AUTOR" value={NomeAtor4} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor4}  placeholder="NOME AUTOR" value={NomeAtor4} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 4 </label>
-          <input type="text" onChange={handleAtor4Filme} required placeholder="NOME FILME" value={NomeAtor4Filme} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor4Filme}  placeholder="NOME FILME" value={NomeAtor4Filme} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">IMAGE AUTOR 4 </label>
-          <input type="text" onChange={handleAtorImage4} required placeholder="NOME AUTOR " value={ImageAtor4} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtorImage4}  placeholder="NOME AUTOR " value={ImageAtor4} class="form-control" id="inputCity" />
         </div>
 
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 5 </label>
-          <input type="text" onChange={handleAtor5} required placeholder="NOME AUTOR" value={NomeAtor5} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor5}  placeholder="NOME AUTOR" value={NomeAtor5} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">NOME AUTOR 5 </label>
-          <input type="text" onChange={handleAtor5Filme} required placeholder="NOME FILME" value={NomeAtor5Filme} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtor5Filme}  placeholder="NOME FILME" value={NomeAtor5Filme} class="form-control" id="inputCity" />
         </div>
         <div class="col-md-2">
           <label for="inputCity" class="form-label">IMAGE AUTOR 5 </label>
-          <input type="text" onChange={handleAtorImage5} required placeholder="NOME AUTOR " value={ImageAtor5} class="form-control" id="inputCity" />
+          <input type="text" onChange={handleAtorImage5}  placeholder="NOME AUTOR " value={ImageAtor5} class="form-control" id="inputCity" />
         </div>
 
         <div class="col-12">

@@ -25,10 +25,10 @@ const Navbar = () => {
               <Link className="nav-link" to='/livros/user'><li className="nav-item">
                 <a id="homepage" aria-current="page">Home</a>
               </li></Link>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Livros
-                </a>
+              {/* <li className="nav-item dropdown">
+              <Link className="dropdown-item" to='/livros/destaque'><a>
+                 Livros 
+                </a></Link>
                 <ul className="dropdown-menu">
                   <Link className="dropdown-item" to='/livros/destaque'><li><a>Destaques</a></li></Link>
                   <Link className="dropdown-item" to='/livros/aventuras'><li><a>Livros - Aventura</a></li></Link>
@@ -38,8 +38,8 @@ const Navbar = () => {
                   <Link className="dropdown-item" to='/livros/historias'><li><a>Livros - Historia</a></li></Link>
                   <Link className="dropdown-item" to='/livros/literaturas'><li><a>Livros - Literatura</a></li></Link>
                 </ul>
-              </li>
-              <li className="nav-item dropdown">
+              </li> */}
+              {/* <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Filmes
                 </a>
@@ -52,14 +52,20 @@ const Navbar = () => {
                   <Link className="dropdown-item" to='/filmes/infantils'><li><a>Filmes - Desenho</a></li></Link>
                   <Link className="dropdown-item" to='/filmes/romances'><li><a>Filmes - Romance</a></li></Link>
                 </ul>
-              </li>
-              <li className="nav-item dropdown">
+              </li> */}
+               {/* <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Logo
                 </a>
                 <ul className="dropdown-menu">
-                  <Link className="dropdown-item" to='/logos'><li><a>Logos Marcas</a></li></Link>
+                 <Link className="dropdown-item" to='/logos'><li><a>Logos Marcas</a></li></Link> 
                 </ul>
+              </li>  */}
+               <li className="nav-item">
+                <Link className="nav-link" to='/livros/destaque'><a>Livros</a></Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to='/filmes/destaques'><a>Filmes</a></Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='/contato/'><a>Contato</a></Link>

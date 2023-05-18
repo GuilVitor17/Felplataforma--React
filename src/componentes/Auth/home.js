@@ -94,8 +94,8 @@ fetchUsers();
         <div className="div-inicio" onLoad={handleButtoninicio}>
 
             <div className="div-center">
-                <h2>FEL PLATAFORMA</h2>
-                <h4>FILMES - LIVROS - LOGOS</h4>
+                <h2>LibraryFlix</h2>
+                <h4>Filmes - Livros </h4>
                 <div className="div-image"> <img src={Logomarca} /> </div>
             </div>
         </div>

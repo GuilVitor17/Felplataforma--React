@@ -7,7 +7,6 @@ import '@brainhubeu/react-carousel/lib/style.css';
 import './acao-modules.css'
 import PrivatesForm from "../../../../private-formulario/form-private-home";
 import Navbar from "../../../../../Navbar/navbar";
-// import Religiaofilmes from "../Religiao/Religiao";
 
 
 
@@ -76,7 +75,7 @@ const filmesPorIdAcao = () => {
   <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
 </svg></button></div></a>             </div>
 
-            <div className="div-inf-atores">
+            {/* <div className="div-inf-atores">
 
               <div>
 
@@ -129,7 +128,7 @@ const filmesPorIdAcao = () => {
 
               </div>
 
-            </div>
+            </div> */}
 
           </div>
 
@@ -138,6 +137,7 @@ const filmesPorIdAcao = () => {
       </div>
 
       <div className="opcoesfilmes">
+
           </div>
 
       <PrivatesForm />

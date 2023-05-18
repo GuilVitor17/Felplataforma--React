@@ -94,7 +94,7 @@ fetchUsers();
 
 
 
-            <div className="div-inf-atores">
+            {/* <div className="div-inf-atores">
 
               <div>
 
@@ -146,7 +146,7 @@ fetchUsers();
 
               </div>
 
-            </div>
+            </div> */}
 
 
 
@@ -162,7 +162,6 @@ fetchUsers();
 
         <div className="div-filmes">
 
-          <FilmesTerror />
 
 
         </div>

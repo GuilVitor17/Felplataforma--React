@@ -15,27 +15,30 @@ const PrivatesInfLogo = () => {
                 <ul>
             <div>
                 <b>Filmes</b>
-            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Destaques</a></b></Link>
-            <Link className="Link" to='/filmes/acaos'><b><a className="dropdown-item">Acao</a></b></Link>
-            <Link className="Link" to='/filmes/Dramas'><b><a className="dropdown-item">Drama</a></b></Link>
-            <Link className="Link" to='/filmes/terrors'><b><a className="dropdown-item">Terror</a></b></Link>
-            <Link className="Link" to='/filmes/comedias'><b><a className="dropdown-item">Comedia</a></b></Link>
-            <Link className="Link" to='/filmes/infantils'><b><a className="dropdown-item">Desenho</a></b></Link>
-            <Link className="Link" to='/filmes/romances'><b><a className="dropdown-item">Romance</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Filmes</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Acao</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Drama</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Terror</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Comedia</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Desenho</a></b></Link>
+            <Link className="Link" to='/filmes/destaques'><b><a className="dropdown-item">Romance</a></b></Link>
             </div>
             <div>
                 <b>Livros</b>
-            <Link className="Link" to='/livros'><b><a className="dropdown-item">Destaques</a></b></Link>
-            <Link className="Link" to='/livros/aventuras'><b><a className="dropdown-item">Aventuras</a></b></Link>
-            <Link className="Link" to='/livros/romances'><b><a className="dropdown-item">Romance</a></b></Link>
-            <Link className="Link" to='/livros/religiaos'><b><a className="dropdown-item">Religiao</a></b></Link>
-            <Link className="Link" to='/livros/infantils'><b><a className="dropdown-item">Infantil</a></b></Link>
-            <Link className="Link" to='/livros/historias'><b><a className="dropdown-item">Historia</a></b></Link>
-            <Link className="Link" to='/livros/literaturas'><b><a className="dropdown-item">Literatura</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Livros</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Aventuras</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Romance</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Religiao</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Infantil</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Historia</a></b></Link>
+            <Link className="Link" to='/livros/destaque'><b><a className="dropdown-item">Literatura</a></b></Link>
           </div>
           <div>
-                <b>Logo Marcas</b>
-            <Link className="Link" to='/livros'><b><a className="dropdown-item">Destaques</a></b></Link>
+                <b>Contato</b>
+            <Link className="Link" to='/livros'><b><a className="dropdown-item">Contato</a></b></Link>
+            <Link className="Link" to='https://www.facebook.com/profile.php?id=100090718393784'><b><a className="dropdown-item">Facebook</a></b></Link>
+            <Link className="Link" to='https://www.instagram.com/felplataforma/'><b><a className="dropdown-item">Instagram</a></b></Link>
+            <Link className="Link" to='https://chat.whatsapp.com/CwhZyqyqfCO2MzxQWSGzX5'><b><a className="dropdown-item">WhatsApp</a></b></Link>
             </div>
 
                 </ul>

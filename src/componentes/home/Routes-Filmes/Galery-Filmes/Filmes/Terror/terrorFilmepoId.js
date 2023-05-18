@@ -92,7 +92,7 @@ const filmesPorIdTerror = () => {
 
 
 
-            <div className="div-inf-atores">
+            {/* <div className="div-inf-atores">
 
               <div>
 
@@ -144,7 +144,7 @@ const filmesPorIdTerror = () => {
 
               </div>
 
-            </div>
+            </div> */}
 
 
 
@@ -160,7 +160,6 @@ const filmesPorIdTerror = () => {
 
         <div className="div-filmes">
 
-          <FilmesDrama />
 
 
         </div>

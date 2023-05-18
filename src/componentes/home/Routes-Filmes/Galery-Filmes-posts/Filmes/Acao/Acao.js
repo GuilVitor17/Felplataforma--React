@@ -46,7 +46,7 @@ fetchUsers();
   return (
     <div className="Acao-filmes">
 
-      <Link className="button-criar" to='/acaocreatePost1'><button>CRIAR FILMES ACAO</button></Link>
+      <Link className="button-criar" to='/posts/filmes/createacao'><button>CRIAR FILMES ACAO</button></Link>
 
        <Carousel className="carrossel"
               plugins={[

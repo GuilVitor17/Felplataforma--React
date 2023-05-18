@@ -92,7 +92,7 @@ const filmesPorIdDesenho = () => {
 
 
 
-            <div className="div-inf-atores">
+            {/* <div className="div-inf-atores">
 
               <div>
 
@@ -144,7 +144,7 @@ const filmesPorIdDesenho = () => {
 
               </div>
 
-            </div>
+            </div> */}
 
 
 
@@ -160,7 +160,6 @@ const filmesPorIdDesenho = () => {
 
         <div className="div-filmes">
 
-          <FilmesRomance />
 
 
         </div>

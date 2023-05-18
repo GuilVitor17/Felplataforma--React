@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react"
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import './acao-modules.css'
@@ -68,7 +68,7 @@ fetchUsers();
                     <p>ANO - {filmes.ano}</p>
                     <p>DATA - {filmes.data}</p>
                     <p>GENERO - Acao</p>
-                    <p>FORMATO - Pdf</p>
+                    <p>FORMATO - {filmes.linkFilme}</p>
                   </div>
 
                 </div>
@@ -78,7 +78,7 @@ fetchUsers();
                   <div className="div-descricao-id">
                     <h5>Descrição - <br /> {filmes.descricao} </h5>
                   </div>
-                 <a href={filmes.linkfilmes}><div className="button-filmes-id"><button>link</button></div></a> 
+                <Link to={filmes.linkFilme}> </Link> <div className="button-filmes-id"><button>link</button></div>
                 </div>
 
 

@@ -91,7 +91,7 @@ const FilmesPorIdRomance = () => {
             </div>
 
             
-            <div className="div-inf-atores">
+            {/* <div className="div-inf-atores">
 
               <div>
 
@@ -143,7 +143,7 @@ const FilmesPorIdRomance = () => {
 
               </div>
 
-            </div>
+            </div> */}
 
 
           </div>
@@ -157,7 +157,6 @@ const FilmesPorIdRomance = () => {
 
         <div className="div-filmes">
 
-          <FilmesDesenho />
 
 
         </div>
