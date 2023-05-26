@@ -63,7 +63,7 @@ const forgotpasswordPasswordToken = () => {
           await Swal.fire({
             position: 'top-end',
             icon: 'success',
-            title: `SENHA EDITADA - ${Email}`,
+            title: `SENHA EDITADA`,
             showConfirmButton: false,
             timer: 3000,
           })

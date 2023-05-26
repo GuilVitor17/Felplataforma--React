@@ -33,22 +33,7 @@ const Login = () => {
 
         let timerInterval
 
-        await  await Swal.fire({
-          title: 'Aguarde Verificando dados!',
-          timer: 15000,
-          timerProgressBar: true,
-          didOpen: () => {
-            Swal.showLoading()
-            const b = Swal.getHtmlContainer().querySelector('b')
-            timerInterval = setInterval(() => {
-              b.textContent = Swal.getTimerLeft()
-            }, 100)
-          },
-          willClose: () => {
-            clearInterval(timerInterval)
-          }
-        })
-         
+        
 
 
         axios.post(`${process.env.REACT_APP_BASE_URL}/auth/authenticate`,{
@@ -60,8 +45,7 @@ const Login = () => {
         .then(async response =>{
           let timerInterval
           await Swal.fire({
-            title: 'Entrando!',
-            timer: 10000,
+            timer: 1500,
             timerProgressBar: true,
             didOpen: () => {
               Swal.showLoading()
@@ -87,6 +71,8 @@ const Login = () => {
             navigate("/")
             localStorage.setItem("token", response.data.token)
             localStorage.setItem("id", response.data.user._id)
+            localStorage.setItem("name", response.data.user.name)
+            localStorage.setItem("email", response.data.user.email)
             window.location = `/livros/user`
         })
       })

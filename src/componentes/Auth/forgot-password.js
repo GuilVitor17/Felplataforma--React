@@ -52,7 +52,7 @@ const forgotPassword = () => {
             await Swal.fire({
               position: 'top-end',
               icon: 'success',
-              title: `CÓDIGO ENVIADO - ${email}`,
+              title: `CÓDIGO ENVIADO`,
               showConfirmButton: false,
               timer: 3000,
             })

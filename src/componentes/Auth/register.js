@@ -34,25 +34,6 @@ const Register = () => {
 
         e.preventDefault()
 
-        let timerInterval
-
-         await Swal.fire({
-          title: 'Aguarde Verificando dados!',
-          timer: 15000,
-          timerProgressBar: true,
-          didOpen: () => {
-            Swal.showLoading()
-            const b = Swal.getHtmlContainer().querySelector('b')
-            timerInterval = setInterval(() => {
-              b.textContent = Swal.getTimerLeft()
-            }, 100)
-          },
-          willClose: () => {
-            clearInterval(timerInterval)
-          }
-        })
-
-
         axios.post(`${process.env.REACT_APP_BASE_URL}/auth/register`,{
           name:name,
           email:email,
@@ -61,8 +42,7 @@ const Register = () => {
         .then(async response =>{
                 let timerInterval
                 await Swal.fire({
-                  title: 'Criando!',
-                  timer: 10000,
+                  timer: 1000,
                   timerProgressBar: true,
                   didOpen: () => {
                     Swal.showLoading()
@@ -82,7 +62,7 @@ const Register = () => {
             await Swal.fire({
                 position: 'top-end',
                 icon: 'success',
-                title: `CONTA CRIADA - ${name}`,
+                title: `CONTA CRIADA`,
                 showConfirmButton: false,
                 timer: 3000,
               })
